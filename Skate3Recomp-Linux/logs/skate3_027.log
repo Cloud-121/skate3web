@@ -1,0 +1,309 @@
+[2026-10-04 19:56:46.711] [info] [core] [t460622] skate3 starting [v2.0.2-Release]
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   User data:      /home/cloud/.local/share/skate3
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   Cache root:     /home/cloud/.local/share/skate3/cache
+[2026-10-04 19:56:46.711] [info] [core] [t460622] Linux runtime diagnostics:
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   OS: EndeavourOS
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   OS ID: endeavouros 
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   Kernel: Linux 7.2.6-zen2-1-zen x86_64
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   glibc: 2.44
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   Compiler: clang 20.1.8 (++20250708082409+6fb913d3e2ec-1~exp1~20250708202428.132)
+[2026-10-04 19:56:46.711] [info] [core] [t460622] Linux session environment:
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   XDG_SESSION_TYPE=wayland
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   XDG_CURRENT_DESKTOP=KDE
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   DESKTOP_SESSION=plasma
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   DISPLAY=:1
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   WAYLAND_DISPLAY=wayland-0
+[2026-10-04 19:56:46.711] [info] [core] [t460622]   GDK_BACKEND=x11
+[2026-10-04 19:56:46.711] [info] [core] [t460622] Steam runtime environment:
+[2026-10-04 19:56:46.711] [info] [core] [t460622] Steam Deck / gamescope environment:
+[2026-10-04 19:56:46.915] [info] [core] [t460622] Vulkan instance API version 1.4.357. Enabled layers and extensions:
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_KHR_surface
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_KHR_xcb_surface
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_debug_utils
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_KHR_portability_enumeration
+[2026-10-04 19:56:46.915] [warning] [core] [t460622] Available Vulkan physical devices (use the 'vulkan_device' configuration variable to force a specific device):
+[2026-10-04 19:56:46.915] [warning] [core] [t460622] * 0: NVIDIA GeForce RTX 3070
+[2026-10-04 19:56:46.915] [info] [core] [t460622] Vulkan device 'NVIDIA GeForce RTX 3070': API 1.4.351, vendor 0x10DE, device 0x2488, driver version 0x99D1C240
+[2026-10-04 19:56:46.915] [info] [core] [t460622] Enabled Vulkan device extensions:
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_KHR_push_descriptor
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_KHR_swapchain
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_custom_border_color
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_fragment_shader_interlock
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_memory_budget
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_non_seamless_cube_map
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * VK_EXT_robustness2
+[2026-10-04 19:56:46.915] [info] [core] [t460622] Vulkan device properties and enabled features:
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * driverID: NvidiaProprietary
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * driverName: NVIDIA
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * driverInfo: 615.71.09
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * conformanceVersion: 1.4.3.3
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxImageDimension2D: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxImageDimension3D: 16384
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxImageDimensionCube: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxImageArrayLayers: 2048
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxStorageBufferRange: 4294967295
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxSamplerAllocationCount: 4000
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxPerStageDescriptorSamplers: 1048576
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxPerStageDescriptorStorageBuffers: 1048576
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxPerStageDescriptorSampledImages: 1048576
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxPerStageResources: 4294967295
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxVertexOutputComponents: 128
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxTessellationEvaluationOutputComponents: 128
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxGeometryInputComponents: 128
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxGeometryOutputComponents: 128
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxFragmentInputComponents: 128
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxFragmentCombinedOutputResources: 4294967295
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxSamplerAnisotropy: 16
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxViewportDimensions[0]: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxViewportDimensions[1]: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * minUniformBufferOffsetAlignment: 64
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * minStorageBufferOffsetAlignment: 16
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxTexelBufferElements: 268435456
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * minTexelBufferOffsetAlignment: 16
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxFramebufferWidth: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * maxFramebufferHeight: 32768
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * framebufferColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * framebufferDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * framebufferStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * framebufferNoAttachmentsSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sampledImageColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sampledImageIntegerSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sampledImageDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sampledImageStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * standardSampleLocations: 1
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * optimalBufferCopyOffsetAlignment: 1
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * optimalBufferCopyRowPitchAlignment: 1
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * nonCoherentAtomSize: 64
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * timestampComputeAndGraphics: 1
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * timestampPeriod: 1
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * robustBufferAccess
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * fullDrawIndexUint32
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * independentBlend
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * geometryShader
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * tessellationShader
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sampleRateShading
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * depthClamp
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * fillModeNonSolid
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * samplerAnisotropy
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * occlusionQueryPrecise
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * vertexPipelineStoresAndAtomics
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * fragmentStoresAndAtomics
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * shaderClipDistance
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * shaderCullDistance
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sparseBinding
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * sparseResidencyBuffer
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * samplerMirrorClampToEdge
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * uniformBufferStandardLayout
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * scalarBlockLayout
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * shaderDemoteToHelperInvocation
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * dynamicRendering
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * constantAlphaColorBlendFactors
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * imageViewFormatReinterpretation
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * imageViewFormatSwizzle
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * pointPolygons
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * separateStencilMaskRef
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * shaderSampleRateInterpolationFunctions
+[2026-10-04 19:56:46.915] [info] [core] [t460622] * shaderSignedZeroInfNanPreserveFloat32: 1
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * shaderDenormFlushToZeroFloat32: 0
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * shaderRoundingModeRTEFloat32: 1
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * fragmentShaderSampleInterlock
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * fragmentShaderPixelInterlock
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * nonSeamlessCubeMap
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * customBorderColors
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * customBorderColorWithoutFormat
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * maxCustomBorderColorSamplers: 4000
+[2026-10-04 19:56:46.916] [info] [core] [t460622] * nullDescriptor
+[2026-10-04 19:56:47.212] [info] [core] [t460622] Graphics backend: Vulkan (gpu_backend=auto)
+[2026-10-04 19:56:47.278] [info] [core] [t460622] imgui fonts: drawer=0x55ec3e1fa200 atlas=0x55ec3d403cf0 count=6 ui=0x55ec3e1cbed0 uisb=0x55ec3e1318e0
+[2026-10-04 19:56:47.350] [info] [core] [t460622] VulkanPresenter: Created 1280x720 swapchain with format 44, color space 0, presentation mode 2
+[2026-10-04 19:56:47.370] [info] [core] [t460622] Host guest clock initialized: frequency=50000000 ratio=1/20
+[2026-10-04 19:56:47.374] [info] [sys] [t460622] FunctionDispatcher initialized
+[2026-10-04 19:56:47.374] [info] [core] [t460622] SDL: Using version 3.5.0
+[2026-10-04 19:56:47.374] [info] [core] [t460622] MnK input driver initialized
+[2026-10-04 19:56:47.374] [info] [sys] [t460622] Input system initialized
+[2026-10-04 19:56:47.490] [warning] [sys] [t460622] set_priority: permission denied
+[2026-10-04 19:56:47.491] [info] [sys] [t460759] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=D91036C0, <host>)
+[2026-10-04 19:56:47.491] [warning] [sys] [t460622] set_priority: permission denied
+[2026-10-04 19:56:47.491] [info] [sys] [t460622] Audio system initialized
+[2026-10-04 19:56:47.492] [info] [sys] [t460622]   Mounted /home/cloud/Downloads/Skate3Recomp-Linux/game at \Device\Harddisk0\Partition1
+[2026-10-04 19:56:47.493] [info] [sys] [t460760] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=C7FFF6C0, <host>)
+[2026-10-04 19:56:47.494] [info] [sys] [t460764] XThread::Execute thid 3 (handle=F8000018, 'GPU Commands (F8000018)', native=C6FFE6C0, <host>)
+[2026-10-04 19:56:47.496] [info] [sys] [t460622] GPU system initialized (presentation=true)
+[2026-10-04 19:56:47.496] [info] [sys] [t460622] Runtime initialized successfully
+[2026-10-04 19:56:47.498] [info] [sys] [t460765] XThread::Execute thid 4 (handle=F800001C, 'GPU VSync (F800001C)', native=C5FFD6C0, <host>)
+[2026-10-04 19:56:47.498] [info] [gpu] [t460764] VulkanRenderTargetCache: Using host/FBO render target path, native 2x MSAA attachments available, native 2x MSAA no-attachments available
+[2026-10-04 19:56:47.558] [info] [core] [t460622] Function table initialized for module: code=82380000-82F9E16C, image=82000000-831B0000
+[2026-10-04 19:56:47.605] [warning] [core] [t460622] SDL GameControllerDB: file '/home/cloud/Downloads/Skate3Recomp-Linux/gamecontrollerdb.txt' does not exist.
+[2026-10-04 19:56:47.606] [info] [core] [t460622] SDL input driver initialized successfully
+[2026-10-04 19:56:47.606] [info] [sys] [t460622] Loading XEX image: game:\default.xex
+[2026-10-04 19:56:47.861] [warning] [fs] [t460622] VFS: entry not found for '\Device\Harddisk0\Partition1\default.xexpp' on device '\Device\Harddisk0\Partition1'
+[2026-10-04 19:56:47.862] [info] [core] [t460622] XEX image loaded at 82000000-82000000 (size 00000000)
+[2026-10-04 19:56:47.974] [info] [core] [t460622] XEX patch applied successfully: base version: 3.0.0.0, new version: 3.0.3.0
+[2026-10-04 19:56:47.974] [info] [core] [t460622] XEX image loaded at 82000000-831B0000 (size 011B0000)
+[2026-10-04 19:56:47.978] [info] [core] [t460622] No Skate 3 DLC packages found. Drop legally obtained DLC package files in /home/cloud/.local/share/skate3/dlc
+[2026-10-04 19:56:48.454] [info] [core] [t460622] Installed Skate 3 BIG-directory VFS overlay with 11 aliases from /home/cloud/Downloads/Skate3Recomp-Linux/game/data/content
+[2026-10-04 19:56:48.454] [info] [core] [t460622] native-render hook layer enabled
+[2026-10-04 19:56:48.454] [info] [core] [t460622] native-scene: guest output renderer registered (scene on)
+[2026-10-04 19:56:48.459] [info] [core] [t460622] Function table initialized for module: code=880B0000-8849CAD0, image=88000000-884C0000
+[2026-10-04 19:56:48.497] [info] [sys] [t460622] KernelState: Preparing module launch...
+[2026-10-04 19:56:48.498] [info] [core] [t460622] Initializing shader storage for title 454108E6...
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamPartyGetUserList (0AFF) in xam -> thunk at 82F9E16C
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamPartySendGameInvites (0B00) in xam -> thunk at 82F9E170
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamPartySetCustomData (0B0B) in xam -> thunk at 82F9E174
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamPartyGetBandwidth (0B10) in xam -> thunk at 82F9E178
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamShowPartyUI (0305) in xam -> thunk at 82F9E17C
+[2026-10-04 19:56:48.502] [info] [sys] [t460924] GetProcAddressByOrdinal: XamShowCommunitySessionsUI (030B) in xam -> thunk at 82F9E180
+[2026-10-04 19:56:48.680] [warning] [fs] [t460935] VFS: entry not found for 'd:\fileserver.ini' (via symlink '\Device\Harddisk0\Partition1\fileserver.ini') on device '\Device\Harddisk0\Partition1'
+[2026-10-04 19:56:48.680] [warning] [krnl] [t460935] [NtCreateFile] FAILED: path='d:\fileserver.ini' -> 0xc000000f
+[2026-10-04 19:56:48.792] [info] [gpu] [t460924] SetInterruptCallback(82B758D8, 40002A80)
+[2026-10-04 19:56:48.847] [info] [core] [t460924] SDL OnControllerDeviceAdded: "8BitDo Ultimate Wireless / Pro 2 Wired Controller", JoystickType(1), GameControllerType(3), VendorID(0x2DC8), ProductID(0x3106)
+[2026-10-04 19:56:48.847] [info] [core] [t460924] SDL OnControllerDeviceAdded: Added at index 0.
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2200 ptr=400053B4
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2180 ptr=400053A0
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2000 ptr=40005300
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2100 ptr=4000534C
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2280 ptr=400053E4
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2300 ptr=40005438
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x2380 ptr=400054D0
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: render-state bank id=0x4900 ptr=40005200
+[2026-10-04 19:56:48.897] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=0)
+[2026-10-04 19:56:48.898] [warning] [krnl] [t460924] IoDismountVolumeByFileHandle(0xf80001e8) - stub
+[2026-10-04 19:56:48.898] [warning] [krnl] [t460924] IoDismountVolumeByFileHandle(0xf80001e8) - stub
+[2026-10-04 19:56:48.914] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=1)
+[2026-10-04 19:56:49.198] [info] [gpu] [t460764] VulkanTextureCache: Format k_Cr_Y1_Cb_Y0_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156000)
+[2026-10-04 19:56:49.199] [info] [gpu] [t460764] VulkanTextureCache: Format k_Y1_Cr_Y0_Cb_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156001)
+[2026-10-04 19:56:56.397] [info] [gpu] [t460764] Created 152 graphics pipelines from Vulkan storage (152 requested)
+[2026-10-04 19:56:56.461] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=05258000+398000
+[2026-10-04 19:56:56.487] [info] [core] [t460764] native-scene: portrait window - suppress mode 2 -> 3 (portrait RTT passes execute, scene/postfx band stays suppressed; restored when the window closes)
+[2026-10-04 19:56:56.487] [info] [core] [t460764] native-scene: menu context - shader compilation synchronous (one-shot portrait renders can't skip still-compiling pieces)
+[2026-10-04 19:56:56.487] [info] [core] [t460764] native-scene: menus/loading - rendering the loading screen NATIVELY (presence context)
+[2026-10-04 19:57:02.707] [info] [core] [t460764] native-scene: pipelines created (MSAA x4, HDR)
+[2026-10-04 19:57:02.708] [info] [core] [t460764] native-scene: shadow atlas created (512x512 tiles, auto)
+[2026-10-04 19:57:02.709] [info] [core] [t460764] native-scene: static sun-shadow map created (12288x4096, 3 cascades)
+[2026-10-04 19:57:02.770] [info] [core] [t460764] native-scene: HDR post pipeline created
+[2026-10-04 19:57:02.770] [info] [core] [t460764] native-scene: rendering natively (0 items, 1280x720)
+[2026-10-04 19:57:02.770] [info] [core] [t460764] native-scene: 4 prewarm decode workers started
+[2026-10-04 19:57:02.771] [info] [core] [t460764] nrhi-vulkan: SLOW frame 6270835us: pass_open=11us/2 flush=2us/6 copies=2us/7 table_miss=23us/11 set0_miss=840us/2 view_destroy=0us/0 view_create=73us/20 const=0us/2 pso=6269884us/50 drain=0us/1
+[2026-10-04 19:57:02.773] [info] [gpu] [t460764] suppression census: executing draws at surface_pitch=640
+[2026-10-04 19:57:02.773] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=2)
+[2026-10-04 19:57:02.805] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=3)
+[2026-10-04 19:57:02.922] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=4)
+[2026-10-04 19:57:02.922] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=5)
+[2026-10-04 19:57:02.923] [info] [core] [t460764] native-scene: FE stack changed: [] (portrait window steady; steady-safe = 0/56/24/17/59)
+[2026-10-04 19:57:02.923] [info] [core] [t460764] native-scene: portrait window closed - suppress mode 2 restored
+[2026-10-04 19:57:02.923] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=6)
+[2026-10-04 19:57:02.924] [info] [core] [t460951] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=7)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=0, context=0x1, value=0x1)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=0, context=0x8001, value=0x7)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=0, context=0x0, value=0x0)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=1, context=0x1, value=0x1)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=1, context=0x8001, value=0x7)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=2, context=0x1, value=0x1)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=2, context=0x8001, value=0x7)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=3, context=0x1, value=0x1)
+[2026-10-04 19:57:02.972] [info] [krnl] [t460937] XGIUserSetContextEx(user=3, context=0x8001, value=0x7)
+[2026-10-04 19:57:03.061] [info] [gpu] [t460764] suppression census: executing draws at surface_pitch=320
+[2026-10-04 19:57:03.092] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.094] [info] [gpu] [t460764] suppression census: executing draws at surface_pitch=80
+[2026-10-04 19:57:03.109] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460D000+1000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460A000+1000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460D000+1000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.110] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.110] [info] [core] [t460951] native-render: auto-exposure re-pinned at zone max 2.500 (adaptation had moved it to 1.125; luminance measurement unavailable without resolve readbacks)
+[2026-10-04 19:57:03.112] [info] [core] [t460764] native-scene: gameplay (prewarm: 0 meshes decoded, 0 dropped, 0 still queued)
+[2026-10-04 19:57:03.114] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.114] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-04 19:57:03.114] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460C000+1000
+[2026-10-04 19:57:03.114] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-04 19:57:03.114] [info] [gpu] [t460764] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-04 19:57:04.113] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:05.540] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:07.041] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:08.315] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:09.414] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:11.242] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:12.678] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:13.825] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:14.826] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:16.179] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:17.287] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-04 19:57:18.138] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5353MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-04 19:57:19.020] [info] [core] [t460951] native-scene: FMV planes published (y=[0A000002 A59F0002] u=[06000002 A5B15002] v=[06000002 A5AD1002])
+[2026-10-04 19:57:19.022] [info] [core] [t460764] native-scene: FMV rendering NATIVELY (movie-quad YUV substitution)
+[2026-10-04 19:57:19.176] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 7E1D5383D184B683->170757BD807A3D00 inc=0 route=inline
+[2026-10-04 19:57:19.198] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 170757BD807A3D00->95AFA94E50CEEFA3 inc=0 route=inline
+[2026-10-04 19:57:19.199] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp CD3429208597C683->3DDF017EB89C5D23 inc=0 route=inline
+[2026-10-04 19:57:19.231] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 95AFA94E50CEEFA3->B680DA62A004FFA6 inc=0 route=inline
+[2026-10-04 19:57:19.232] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3DDF017EB89C5D23->F56C4584CCEB85C0 inc=0 route=inline
+[2026-10-04 19:57:19.281] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp B680DA62A004FFA6->344ACE7427A6FC63 inc=0 route=inline
+[2026-10-04 19:57:19.281] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp F56C4584CCEB85C0->CD3429208597C683 inc=0 route=inline
+[2026-10-04 19:57:19.293] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=441MB budget=5359MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=2MB, default dl=0MB host=0MB | retired=1 | ring peak=10KB ovf=0
+[2026-10-04 19:57:19.311] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 344ACE7427A6FC63->8A65F5D685EA74B9 inc=0 route=inline
+[2026-10-04 19:57:19.311] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp CD3429208597C683->2E231CE8BCA97B2E inc=0 route=inline
+[2026-10-04 19:57:19.312] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CD3429208597C683->AA2FEF9DF194D542 inc=0 route=inline
+[2026-10-04 19:57:19.334] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 8A65F5D685EA74B9->54F69B5874CAB94E inc=0 route=inline
+[2026-10-04 19:57:19.335] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 2E231CE8BCA97B2E->FE2D82F7F63A405E inc=0 route=inline
+[2026-10-04 19:57:19.335] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp AA2FEF9DF194D542->2338F8531D4C394C inc=0 route=inline
+[2026-10-04 19:57:19.370] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 54F69B5874CAB94E->95AFA94E50CEEFA3 inc=0 route=inline
+[2026-10-04 19:57:19.370] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp FE2D82F7F63A405E->3DDF017EB89C5D23 inc=0 route=inline
+[2026-10-04 19:57:19.370] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 2338F8531D4C394C->CD3429208597C683 inc=0 route=inline
+[2026-10-04 19:57:19.394] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 95AFA94E50CEEFA3->D5C88630FD35B086 inc=0 route=inline
+[2026-10-04 19:57:19.394] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3DDF017EB89C5D23->39D8F072B1C8DB26 inc=0 route=inline
+[2026-10-04 19:57:19.395] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CD3429208597C683->3584583105D40546 inc=0 route=inline
+[2026-10-04 19:57:19.437] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp D5C88630FD35B086->760CE5703390833A inc=0 route=inline
+[2026-10-04 19:57:19.438] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 39D8F072B1C8DB26->E07DEECD7E41446E inc=0 route=inline
+[2026-10-04 19:57:19.438] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 3584583105D40546->73A86E642688DC2F inc=0 route=inline
+[2026-10-04 19:57:19.466] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 760CE5703390833A->BE3C347F47DCC0C6 inc=0 route=inline
+[2026-10-04 19:57:19.466] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp E07DEECD7E41446E->81B7DB7B81E7E1DB inc=0 route=inline
+[2026-10-04 19:57:19.466] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 73A86E642688DC2F->D312597FE57700A9 inc=0 route=inline
+[2026-10-04 19:57:19.503] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp BE3C347F47DCC0C6->CC690FC83FB84017 inc=0 route=inline
+[2026-10-04 19:57:19.504] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 81B7DB7B81E7E1DB->AE9BEB5F253C6F25 inc=0 route=inline
+[2026-10-04 19:57:19.504] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp D312597FE57700A9->734B9C0BDECF2CE1 inc=0 route=inline
+[2026-10-04 19:57:19.530] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp CC690FC83FB84017->2A3E39BF2030C8E3 inc=0 route=inline
+[2026-10-04 19:57:19.530] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp AE9BEB5F253C6F25->76F8CFFDAB24FBA0 inc=0 route=inline
+[2026-10-04 19:57:19.531] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 734B9C0BDECF2CE1->F99952A782F3D8F8 inc=0 route=inline
+[2026-10-04 19:57:19.566] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 2A3E39BF2030C8E3->0B02438A6B17384F inc=0 route=inline
+[2026-10-04 19:57:19.566] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 76F8CFFDAB24FBA0->116B12DB164DF3AB inc=0 route=inline
+[2026-10-04 19:57:19.567] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp F99952A782F3D8F8->45530FFFBA2DDF19 inc=0 route=inline
+[2026-10-04 19:57:19.604] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 0B02438A6B17384F->C795429B9DFBDC66 inc=0 route=inline
+[2026-10-04 19:57:19.605] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 116B12DB164DF3AB->AEB05B60F2290CFD inc=0 route=inline
+[2026-10-04 19:57:19.605] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 45530FFFBA2DDF19->30B206AF2817F8AC inc=0 route=inline
+[2026-10-04 19:57:19.629] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp C795429B9DFBDC66->9CED5D961A4F0170 inc=0 route=inline
+[2026-10-04 19:57:19.630] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp AEB05B60F2290CFD->EB62EA6D98FFEC9C inc=0 route=inline
+[2026-10-04 19:57:19.630] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 30B206AF2817F8AC->0E147281F356BA7B inc=0 route=inline
+[2026-10-04 19:57:19.674] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 9CED5D961A4F0170->4A900F88E028E183 inc=0 route=inline
+[2026-10-04 19:57:19.674] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp EB62EA6D98FFEC9C->3D953DBE20498F27 inc=0 route=inline
+[2026-10-04 19:57:19.674] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 0E147281F356BA7B->464BE7A56F279221 inc=0 route=inline
+[2026-10-04 19:57:19.708] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 4A900F88E028E183->F2A08FD58B164629 inc=0 route=inline
+[2026-10-04 19:57:19.709] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3D953DBE20498F27->DAF8B0B2F17E4CD8 inc=0 route=inline
+[2026-10-04 19:57:19.709] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 464BE7A56F279221->6151462ADB3BE629 inc=0 route=inline
+[2026-10-04 19:57:19.733] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp F2A08FD58B164629->AD6C4B2C9B22FB0A inc=0 route=inline
+[2026-10-04 19:57:19.734] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp DAF8B0B2F17E4CD8->DFC2156CC9B0E915 inc=0 route=inline
+[2026-10-04 19:57:19.734] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 6151462ADB3BE629->8911FD958FE4060B inc=0 route=inline
+[2026-10-04 19:57:19.768] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp AD6C4B2C9B22FB0A->7A63047BB71BFF88 inc=0 route=inline
+[2026-10-04 19:57:19.769] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp DFC2156CC9B0E915->869A7E87913C406E inc=0 route=inline
+[2026-10-04 19:57:19.769] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 8911FD958FE4060B->1E9D4F8A6CF6F00B inc=0 route=inline
+[2026-10-04 19:57:19.802] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 7A63047BB71BFF88->2A24FDC23AFCD9F9 inc=0 route=inline
+[2026-10-04 19:57:19.803] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 869A7E87913C406E->D3FDFCDC303D1F5E inc=0 route=inline
+[2026-10-04 19:57:19.803] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 1E9D4F8A6CF6F00B->CCD1D057A2726563 inc=0 route=inline
+[2026-10-04 19:57:19.840] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 2A24FDC23AFCD9F9->CBDD17B43266A3E3 inc=0 route=inline
+[2026-10-04 19:57:19.841] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp D3FDFCDC303D1F5E->3B1A69DF365B3C8E inc=0 route=inline
+[2026-10-04 19:57:19.841] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CCD1D057A2726563->A09AADCA8EBAF318 inc=0 route=inline
+[2026-10-04 19:57:19.868] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp CBDD17B43266A3E3->B347BAC7CF6C3426 inc=0 route=inline
+[2026-10-04 19:57:19.868] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3B1A69DF365B3C8E->143524F908872157 inc=0 route=inline
+[2026-10-04 19:57:19.869] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp A09AADCA8EBAF318->E5F5F297A914912C inc=0 route=inline
+[2026-10-04 19:57:19.904] [info] [core] [t460764] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp B347BAC7CF6C3426->9EDFEEA27FB6EA99 inc=0 route=inline
+[2026-10-04 19:57:19.905] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 143524F908872157->9A3A4A839A2AAABC inc=0 route=inline
+[2026-10-04 19:57:19.905] [info] [core] [t460764] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp E5F5F297A914912C->23BAC957A42EAA1E inc=0 route=inline
+[2026-10-04 19:57:21.988] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5385MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=1 | ring peak=10KB ovf=0
+[2026-10-04 19:57:24.139] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5385MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=1 | ring peak=10KB ovf=0
+[2026-10-04 19:57:26.973] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5385MB | heap1 use=34MB budget=23889MB | heap2(DL) use=100MB budget=145MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=1 | ring peak=10KB ovf=0
+[2026-10-04 19:57:28.631] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5300MB | heap1 use=34MB budget=23889MB | heap2(DL) use=119MB budget=126MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=18KB ovf=0
+[2026-10-04 19:57:30.203] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5303MB | heap1 use=34MB budget=23889MB | heap2(DL) use=119MB budget=126MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=23KB ovf=0
+[2026-10-04 19:57:32.462] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5303MB | heap1 use=34MB budget=23889MB | heap2(DL) use=119MB budget=126MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=23KB ovf=0
+[2026-10-04 19:57:34.150] [info] [core] [t460764] nrhi-vulkan mem: heap0(DL) use=457MB budget=5303MB | heap1 use=34MB budget=23889MB | heap2(DL) use=119MB budget=126MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=23KB ovf=0

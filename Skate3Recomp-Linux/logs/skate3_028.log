@@ -1,0 +1,197 @@
+[2026-10-04 19:57:00.310] [info] [core] [t461455] skate3 starting [v2.0.2-Release]
+[2026-10-04 19:57:00.310] [info] [core] [t461455]   Game directory: /home/cloud/Downloads/Skate3Recomp-Linux/game
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   User data:      /home/cloud/Downloads/Skate3Recomp-Linux/skate3recomp/out/web/native-user
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   Cache root:     /home/cloud/Downloads/Skate3Recomp-Linux/skate3recomp/out/web/native-user/cache
+[2026-10-04 19:57:00.312] [info] [core] [t461455] Linux runtime diagnostics:
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   OS: EndeavourOS
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   OS ID: endeavouros 
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   Kernel: Linux 7.2.6-zen2-1-zen x86_64
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   glibc: 2.44
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   Compiler: clang 20.1.8 (++20250708082409+6fb913d3e2ec-1~exp1~20250708202428.132)
+[2026-10-04 19:57:00.312] [info] [core] [t461455] Linux session environment:
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   XDG_SESSION_TYPE=wayland
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   XDG_CURRENT_DESKTOP=KDE
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   DESKTOP_SESSION=plasma
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   DISPLAY=:1
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   WAYLAND_DISPLAY=wayland-0
+[2026-10-04 19:57:00.312] [info] [core] [t461455]   GDK_BACKEND=x11
+[2026-10-04 19:57:00.312] [info] [core] [t461455] Steam runtime environment:
+[2026-10-04 19:57:00.312] [info] [core] [t461455] Steam Deck / gamescope environment:
+[2026-10-04 19:57:00.425] [info] [core] [t461455] Vulkan instance API version 1.4.357. Enabled layers and extensions:
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_KHR_surface
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_KHR_xcb_surface
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_debug_utils
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_KHR_portability_enumeration
+[2026-10-04 19:57:00.425] [warning] [core] [t461455] Available Vulkan physical devices (use the 'vulkan_device' configuration variable to force a specific device):
+[2026-10-04 19:57:00.425] [warning] [core] [t461455] * 0: NVIDIA GeForce RTX 3070
+[2026-10-04 19:57:00.425] [info] [core] [t461455] Vulkan device 'NVIDIA GeForce RTX 3070': API 1.4.351, vendor 0x10DE, device 0x2488, driver version 0x99D1C240
+[2026-10-04 19:57:00.425] [info] [core] [t461455] Enabled Vulkan device extensions:
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_KHR_push_descriptor
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_KHR_swapchain
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_custom_border_color
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_fragment_shader_interlock
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_memory_budget
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_non_seamless_cube_map
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * VK_EXT_robustness2
+[2026-10-04 19:57:00.425] [info] [core] [t461455] Vulkan device properties and enabled features:
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * driverID: NvidiaProprietary
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * driverName: NVIDIA
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * driverInfo: 615.71.09
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * conformanceVersion: 1.4.3.3
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxImageDimension2D: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxImageDimension3D: 16384
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxImageDimensionCube: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxImageArrayLayers: 2048
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxStorageBufferRange: 4294967295
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxSamplerAllocationCount: 4000
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxPerStageDescriptorSamplers: 1048576
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxPerStageDescriptorStorageBuffers: 1048576
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxPerStageDescriptorSampledImages: 1048576
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxPerStageResources: 4294967295
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxVertexOutputComponents: 128
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxTessellationEvaluationOutputComponents: 128
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxGeometryInputComponents: 128
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxGeometryOutputComponents: 128
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxFragmentInputComponents: 128
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxFragmentCombinedOutputResources: 4294967295
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxSamplerAnisotropy: 16
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxViewportDimensions[0]: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxViewportDimensions[1]: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * minUniformBufferOffsetAlignment: 64
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * minStorageBufferOffsetAlignment: 16
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxTexelBufferElements: 268435456
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * minTexelBufferOffsetAlignment: 16
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxFramebufferWidth: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxFramebufferHeight: 32768
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * framebufferColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * framebufferDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * framebufferStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * framebufferNoAttachmentsSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sampledImageColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sampledImageIntegerSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sampledImageDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sampledImageStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * standardSampleLocations: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * optimalBufferCopyOffsetAlignment: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * optimalBufferCopyRowPitchAlignment: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * nonCoherentAtomSize: 64
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * timestampComputeAndGraphics: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * timestampPeriod: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * robustBufferAccess
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * fullDrawIndexUint32
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * independentBlend
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * geometryShader
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * tessellationShader
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sampleRateShading
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * depthClamp
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * fillModeNonSolid
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * samplerAnisotropy
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * occlusionQueryPrecise
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * vertexPipelineStoresAndAtomics
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * fragmentStoresAndAtomics
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderClipDistance
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderCullDistance
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sparseBinding
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * sparseResidencyBuffer
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * samplerMirrorClampToEdge
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * uniformBufferStandardLayout
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * scalarBlockLayout
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderDemoteToHelperInvocation
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * dynamicRendering
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * constantAlphaColorBlendFactors
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * imageViewFormatReinterpretation
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * imageViewFormatSwizzle
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * pointPolygons
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * separateStencilMaskRef
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderSampleRateInterpolationFunctions
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderSignedZeroInfNanPreserveFloat32: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderDenormFlushToZeroFloat32: 0
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * shaderRoundingModeRTEFloat32: 1
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * fragmentShaderSampleInterlock
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * fragmentShaderPixelInterlock
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * nonSeamlessCubeMap
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * customBorderColors
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * customBorderColorWithoutFormat
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * maxCustomBorderColorSamplers: 4000
+[2026-10-04 19:57:00.425] [info] [core] [t461455] * nullDescriptor
+[2026-10-04 19:57:00.643] [info] [core] [t461455] Graphics backend: Vulkan (gpu_backend=auto)
+[2026-10-04 19:57:00.682] [info] [core] [t461455] imgui fonts: drawer=0x560b9b85ad80 atlas=0x560b9ab2ad20 count=6 ui=0x560b9b89e220 uisb=0x560b9b8617f0
+[2026-10-04 19:57:00.764] [info] [core] [t461455] VulkanPresenter: Created 1280x720 swapchain with format 44, color space 0, presentation mode 0
+[2026-10-04 19:57:00.783] [info] [core] [t461455] Host guest clock initialized: frequency=50000000 ratio=1/20
+[2026-10-04 19:57:00.788] [info] [sys] [t461455] FunctionDispatcher initialized
+[2026-10-04 19:57:00.788] [info] [core] [t461455] SDL: Using version 3.5.0
+[2026-10-04 19:57:00.788] [info] [core] [t461455] MnK input driver initialized
+[2026-10-04 19:57:00.788] [info] [sys] [t461455] Input system initialized
+[2026-10-04 19:57:00.897] [warning] [sys] [t461455] set_priority: permission denied
+[2026-10-04 19:57:00.898] [info] [sys] [t461501] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=D2C226C0, <host>)
+[2026-10-04 19:57:00.898] [warning] [sys] [t461455] set_priority: permission denied
+[2026-10-04 19:57:00.898] [info] [sys] [t461455] Audio system initialized
+[2026-10-04 19:57:00.898] [info] [sys] [t461502] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=D1C216C0, <host>)
+[2026-10-04 19:57:00.910] [info] [sys] [t461455]   Mounted /home/cloud/Downloads/Skate3Recomp-Linux/game at \Device\Harddisk0\Partition1
+[2026-10-04 19:57:00.911] [info] [sys] [t461503] XThread::Execute thid 3 (handle=F8000018, 'GPU Commands (F8000018)', native=BFFFF6C0, <host>)
+[2026-10-04 19:57:00.912] [warning] [gpu] [t461503] Vulkan draw resolution scaling is experimental and may not affect all titles correctly
+[2026-10-04 19:57:00.912] [info] [gpu] [t461503] VulkanRenderTargetCache: Using host/FBO render target path, native 2x MSAA attachments available, native 2x MSAA no-attachments available
+[2026-10-04 19:57:00.917] [info] [sys] [t461455] GPU system initialized (presentation=true)
+[2026-10-04 19:57:00.917] [info] [sys] [t461455] Runtime initialized successfully
+[2026-10-04 19:57:00.937] [info] [core] [t461455] Function table initialized for module: code=82380000-82F9E16C, image=82000000-831B0000
+[2026-10-04 19:57:00.973] [warning] [core] [t461455] SDL GameControllerDB: file '/home/cloud/Downloads/Skate3Recomp-Linux/gamecontrollerdb.txt' does not exist.
+[2026-10-04 19:57:00.973] [info] [core] [t461455] SDL input driver initialized successfully
+[2026-10-04 19:57:00.973] [info] [sys] [t461455] Loading XEX image: game:\default.xex
+[2026-10-04 19:57:01.249] [warning] [fs] [t461455] VFS: entry not found for '\Device\Harddisk0\Partition1\default.xexpp' on device '\Device\Harddisk0\Partition1'
+[2026-10-04 19:57:01.249] [info] [core] [t461455] XEX image loaded at 82000000-82000000 (size 00000000)
+[2026-10-04 19:57:01.250] [info] [core] [t461455] Dumped loaded XEX image default to /home/cloud/Downloads/Skate3Recomp-Linux/skate3recomp/out/web/image/default_82000000_00000000.bin
+[2026-10-04 19:57:01.345] [info] [core] [t461455] XEX patch applied successfully: base version: 3.0.0.0, new version: 3.0.3.0
+[2026-10-04 19:57:01.345] [info] [core] [t461455] XEX image loaded at 82000000-831B0000 (size 011B0000)
+[2026-10-04 19:57:01.354] [info] [core] [t461455] Dumped loaded XEX image default to /home/cloud/Downloads/Skate3Recomp-Linux/skate3recomp/out/web/image/default_82000000_011B0000.bin
+[2026-10-04 19:57:01.355] [info] [sys] [t461528] XThread::Execute thid 5 (handle=F8000028, 'Kernel Dispatch (F8000028)', native=BADFF6C0, <host>)
+[2026-10-04 19:57:01.355] [info] [core] [t461455] No Skate 3 DLC packages found. Drop legally obtained DLC package files in /home/cloud/Downloads/Skate3Recomp-Linux/skate3recomp/out/web/native-user/dlc
+[2026-10-04 19:57:01.976] [info] [core] [t461455] Installed Skate 3 BIG-directory VFS overlay with 11 aliases from /home/cloud/Downloads/Skate3Recomp-Linux/game/data/content
+[2026-10-04 19:57:01.976] [info] [core] [t461455] native-render hook layer enabled
+[2026-10-04 19:57:01.976] [info] [core] [t461455] native-scene: guest output renderer registered (scene on)
+[2026-10-04 19:57:01.982] [info] [core] [t461455] Function table initialized for module: code=880B0000-8849CAD0, image=88000000-884C0000
+[2026-10-04 19:57:02.007] [info] [sys] [t461455] KernelState: Preparing module launch...
+[2026-10-04 19:57:02.008] [info] [core] [t461455] Initializing shader storage for title 454108E6...
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamPartyGetUserList (0AFF) in xam -> thunk at 82F9E16C
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamPartySendGameInvites (0B00) in xam -> thunk at 82F9E170
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamPartySetCustomData (0B0B) in xam -> thunk at 82F9E174
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamPartyGetBandwidth (0B10) in xam -> thunk at 82F9E178
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamShowPartyUI (0305) in xam -> thunk at 82F9E17C
+[2026-10-04 19:57:02.009] [info] [sys] [t461627] GetProcAddressByOrdinal: XamShowCommunitySessionsUI (030B) in xam -> thunk at 82F9E180
+[2026-10-04 19:57:02.160] [warning] [fs] [t461638] VFS: entry not found for 'd:\fileserver.ini' (via symlink '\Device\Harddisk0\Partition1\fileserver.ini') on device '\Device\Harddisk0\Partition1'
+[2026-10-04 19:57:02.160] [warning] [krnl] [t461638] [NtCreateFile] FAILED: path='d:\fileserver.ini' -> 0xc000000f
+[2026-10-04 19:57:02.227] [info] [gpu] [t461627] SetInterruptCallback(82B758D8, 40002A80)
+[2026-10-04 19:57:02.265] [info] [core] [t461627] SDL OnControllerDeviceAdded: "8BitDo Ultimate Wireless / Pro 2 Wired Controller", JoystickType(1), GameControllerType(3), VendorID(0x2DC8), ProductID(0x3106)
+[2026-10-04 19:57:02.265] [info] [core] [t461627] SDL OnControllerDeviceAdded: Added at index 0.
+[2026-10-04 19:57:02.298] [warning] [krnl] [t461627] IoDismountVolumeByFileHandle(0xf80001e8) - stub
+[2026-10-04 19:57:02.298] [warning] [krnl] [t461627] IoDismountVolumeByFileHandle(0xf80001e8) - stub
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2200 ptr=400053B4
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2180 ptr=400053A0
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2000 ptr=40005300
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2100 ptr=4000534C
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2280 ptr=400053E4
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2300 ptr=40005438
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x2380 ptr=400054D0
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: render-state bank id=0x4900 ptr=40005200
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=0)
+[2026-10-04 19:57:02.331] [info] [core] [t461667] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=1)
+[2026-10-04 19:57:02.493] [info] [gpu] [t461503] VulkanTextureCache: Format k_Cr_Y1_Cb_Y0_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156000)
+[2026-10-04 19:57:02.494] [info] [gpu] [t461503] VulkanTextureCache: Format k_Y1_Cr_Y0_Cb_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156001)
+[2026-10-04 19:57:03.024] [info] [gpu] [t461503] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=true, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=05258000+398000
+[2026-10-04 19:57:03.047] [warning] [gpu] [t461503] Skipping Vulkan frame presentation due to async placeholder draw usage in this frame
+[2026-10-04 19:57:03.066] [info] [core] [t461667] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=2)
+[2026-10-04 19:57:28.064] [info] [core] [t461455] Window closing, shutting down...
+[2026-10-04 19:57:28.070] [info] [core] [t461628] Execution complete
+[2026-10-04 19:57:28.114] [info] [core] [t461455] native-scene: settings-menu blur off (post-processor disarms after ease-out)
+[2026-10-04 19:57:28.115] [error] [gpu] [t461503] **** INDIRECT RINGBUFFER: Failed to execute packet.
+[2026-10-04 19:57:28.117] [warning] [gpu] [t461503] Vulkan draw-scale swap sizing: packet=1280x720, src_scaled=2560x1440, src_unscaled=1280x720, active=2560x1440
+[2026-10-04 19:57:28.121] [info] [core] [t461503] native-scene: portrait window - suppress mode 2 -> 3 (portrait RTT passes execute, scene/postfx band stays suppressed; restored when the window closes)
+[2026-10-04 19:57:28.121] [info] [core] [t461503] native-scene: menu context - shader compilation synchronous (one-shot portrait renders can't skip still-compiling pieces)
+[2026-10-04 19:57:28.121] [info] [core] [t461503] native-scene: menus/loading - rendering the loading screen NATIVELY (presence context)
+[2026-10-04 19:57:34.216] [info] [core] [t461503] native-scene: pipelines created (MSAA x4, HDR)
+[2026-10-04 19:57:34.218] [info] [core] [t461503] native-scene: shadow atlas created (1024x1024 tiles, auto)
+[2026-10-04 19:57:34.218] [info] [core] [t461503] native-scene: static sun-shadow map created (12288x4096, 3 cascades)
+[2026-10-04 19:57:34.279] [info] [core] [t461503] native-scene: HDR post pipeline created
+[2026-10-04 19:57:34.279] [info] [core] [t461503] native-scene: rendering natively (0 items, 2560x1440)
+[2026-10-04 19:57:34.279] [info] [core] [t461503] native-scene: 4 prewarm decode workers started
+[2026-10-04 19:57:34.281] [info] [core] [t461503] nrhi-vulkan: SLOW frame 6148350us: pass_open=5us/2 flush=2us/6 copies=2us/7 table_miss=12us/11 set0_miss=1410us/2 view_destroy=0us/0 view_create=60us/21 const=0us/2 pso=6146859us/50 drain=0us/1
+[2026-10-04 19:57:34.287] [info] [core] [t461503] nrhi-vulkan: releasing app-held objects at device destruction (buffers=4 textures=21 views=21 pipelines=25 shaders=0)

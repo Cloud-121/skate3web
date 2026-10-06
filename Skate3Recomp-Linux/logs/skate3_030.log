@@ -1,0 +1,801 @@
+[2026-10-05 09:31:49.199] [info] [core] [t45239] skate3 starting [v2.0.2-Release]
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   User data:      /home/cloud/.local/share/skate3
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   Cache root:     /home/cloud/.local/share/skate3/cache
+[2026-10-05 09:31:49.199] [info] [core] [t45239] Linux runtime diagnostics:
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   OS: EndeavourOS
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   OS ID: endeavouros 
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   Kernel: Linux 7.2.6-zen2-1-zen x86_64
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   glibc: 2.44
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   Compiler: clang 20.1.8 (++20250708082409+6fb913d3e2ec-1~exp1~20250708202428.132)
+[2026-10-05 09:31:49.199] [info] [core] [t45239] Linux session environment:
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   XDG_SESSION_TYPE=wayland
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   XDG_CURRENT_DESKTOP=KDE
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   DESKTOP_SESSION=plasma
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   DISPLAY=:1
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   WAYLAND_DISPLAY=wayland-0
+[2026-10-05 09:31:49.199] [info] [core] [t45239]   GDK_BACKEND=x11
+[2026-10-05 09:31:49.199] [info] [core] [t45239] Steam runtime environment:
+[2026-10-05 09:31:49.199] [info] [core] [t45239] Steam Deck / gamescope environment:
+[2026-10-05 09:31:49.282] [info] [core] [t45239] Vulkan instance API version 1.4.357. Enabled layers and extensions:
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_KHR_surface
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_KHR_xcb_surface
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_debug_utils
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_KHR_portability_enumeration
+[2026-10-05 09:31:49.283] [warning] [core] [t45239] Available Vulkan physical devices (use the 'vulkan_device' configuration variable to force a specific device):
+[2026-10-05 09:31:49.283] [warning] [core] [t45239] * 0: NVIDIA GeForce RTX 3070
+[2026-10-05 09:31:49.283] [info] [core] [t45239] Vulkan device 'NVIDIA GeForce RTX 3070': API 1.4.351, vendor 0x10DE, device 0x2488, driver version 0x99D1C240
+[2026-10-05 09:31:49.283] [info] [core] [t45239] Enabled Vulkan device extensions:
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_KHR_push_descriptor
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_KHR_swapchain
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_custom_border_color
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_fragment_shader_interlock
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_memory_budget
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_non_seamless_cube_map
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * VK_EXT_robustness2
+[2026-10-05 09:31:49.283] [info] [core] [t45239] Vulkan device properties and enabled features:
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * driverID: NvidiaProprietary
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * driverName: NVIDIA
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * driverInfo: 615.71.09
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * conformanceVersion: 1.4.3.3
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxImageDimension2D: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxImageDimension3D: 16384
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxImageDimensionCube: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxImageArrayLayers: 2048
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxStorageBufferRange: 4294967295
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxSamplerAllocationCount: 4000
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxPerStageDescriptorSamplers: 1048576
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxPerStageDescriptorStorageBuffers: 1048576
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxPerStageDescriptorSampledImages: 1048576
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxPerStageResources: 4294967295
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxVertexOutputComponents: 128
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxTessellationEvaluationOutputComponents: 128
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxGeometryInputComponents: 128
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxGeometryOutputComponents: 128
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxFragmentInputComponents: 128
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxFragmentCombinedOutputResources: 4294967295
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxSamplerAnisotropy: 16
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxViewportDimensions[0]: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxViewportDimensions[1]: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * minUniformBufferOffsetAlignment: 64
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * minStorageBufferOffsetAlignment: 16
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxTexelBufferElements: 268435456
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * minTexelBufferOffsetAlignment: 16
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxFramebufferWidth: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxFramebufferHeight: 32768
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * framebufferColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * framebufferDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * framebufferStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * framebufferNoAttachmentsSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sampledImageColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sampledImageIntegerSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sampledImageDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sampledImageStencilSampleCounts: { 1 | 2 | 4 | 8 | 16 }
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * standardSampleLocations: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * optimalBufferCopyOffsetAlignment: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * optimalBufferCopyRowPitchAlignment: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * nonCoherentAtomSize: 64
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * timestampComputeAndGraphics: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * timestampPeriod: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * robustBufferAccess
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * fullDrawIndexUint32
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * independentBlend
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * geometryShader
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * tessellationShader
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sampleRateShading
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * depthClamp
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * fillModeNonSolid
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * samplerAnisotropy
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * occlusionQueryPrecise
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * vertexPipelineStoresAndAtomics
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * fragmentStoresAndAtomics
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderClipDistance
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderCullDistance
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sparseBinding
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * sparseResidencyBuffer
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * samplerMirrorClampToEdge
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * uniformBufferStandardLayout
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * scalarBlockLayout
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderDemoteToHelperInvocation
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * dynamicRendering
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * constantAlphaColorBlendFactors
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * imageViewFormatReinterpretation
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * imageViewFormatSwizzle
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * pointPolygons
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * separateStencilMaskRef
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderSampleRateInterpolationFunctions
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderSignedZeroInfNanPreserveFloat32: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderDenormFlushToZeroFloat32: 0
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * shaderRoundingModeRTEFloat32: 1
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * fragmentShaderSampleInterlock
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * fragmentShaderPixelInterlock
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * nonSeamlessCubeMap
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * customBorderColors
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * customBorderColorWithoutFormat
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * maxCustomBorderColorSamplers: 4000
+[2026-10-05 09:31:49.283] [info] [core] [t45239] * nullDescriptor
+[2026-10-05 09:31:49.463] [info] [core] [t45239] Graphics backend: Vulkan (gpu_backend=auto)
+[2026-10-05 09:31:49.493] [info] [core] [t45239] imgui fonts: drawer=0x55af5ee1b8f0 atlas=0x55af5e0eac40 count=6 ui=0x55af5ede5080 uisb=0x55af5ed831a0
+[2026-10-05 09:31:49.538] [info] [core] [t45239] VulkanPresenter: Created 1280x720 swapchain with format 44, color space 0, presentation mode 2
+[2026-10-05 09:31:49.553] [info] [core] [t45239] Host guest clock initialized: frequency=50000000 ratio=1/20
+[2026-10-05 09:31:49.556] [info] [sys] [t45239] FunctionDispatcher initialized
+[2026-10-05 09:31:49.557] [info] [core] [t45239] SDL: Using version 3.5.0
+[2026-10-05 09:31:49.557] [info] [core] [t45239] MnK input driver initialized
+[2026-10-05 09:31:49.557] [info] [sys] [t45239] Input system initialized
+[2026-10-05 09:31:49.636] [warning] [sys] [t45239] set_priority: permission denied
+[2026-10-05 09:31:49.636] [info] [sys] [t45263] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=F2C226C0, <host>)
+[2026-10-05 09:31:49.637] [warning] [sys] [t45239] set_priority: permission denied
+[2026-10-05 09:31:49.637] [info] [sys] [t45239] Audio system initialized
+[2026-10-05 09:31:49.637] [info] [sys] [t45264] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=F1C216C0, <host>)
+[2026-10-05 09:31:49.639] [info] [sys] [t45239]   Mounted /home/cloud/Downloads/Skate3Recomp-Linux/game at \Device\Harddisk0\Partition1
+[2026-10-05 09:31:49.639] [info] [sys] [t45265] XThread::Execute thid 3 (handle=F8000018, 'GPU Commands (F8000018)', native=DFFFF6C0, <host>)
+[2026-10-05 09:31:49.639] [info] [sys] [t45239] GPU system initialized (presentation=true)
+[2026-10-05 09:31:49.640] [info] [sys] [t45239] Runtime initialized successfully
+[2026-10-05 09:31:49.639] [info] [sys] [t45266] XThread::Execute thid 4 (handle=F800001C, 'GPU VSync (F800001C)', native=DEFFE6C0, <host>)
+[2026-10-05 09:31:49.642] [info] [gpu] [t45265] VulkanRenderTargetCache: Using host/FBO render target path, native 2x MSAA attachments available, native 2x MSAA no-attachments available
+[2026-10-05 09:31:49.655] [info] [core] [t45239] Function table initialized for module: code=82380000-82F9E16C, image=82000000-831B0000
+[2026-10-05 09:31:49.679] [warning] [core] [t45239] SDL GameControllerDB: file '/home/cloud/Downloads/Skate3Recomp-Linux/gamecontrollerdb.txt' does not exist.
+[2026-10-05 09:31:49.679] [info] [core] [t45239] SDL input driver initialized successfully
+[2026-10-05 09:31:49.680] [info] [sys] [t45239] Loading XEX image: game:\default.xex
+[2026-10-05 09:31:49.764] [info] [gpu] [t45265] VulkanTextureCache: Format k_Cr_Y1_Cb_Y0_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156000)
+[2026-10-05 09:31:49.764] [info] [gpu] [t45265] VulkanTextureCache: Format k_Y1_Cr_Y0_Cb_REP (unsigned) is supported via a fallback format (using the Vulkan format 37 instead of the preferred 1000156001)
+[2026-10-05 09:31:49.852] [warning] [fs] [t45239] VFS: entry not found for '\Device\Harddisk0\Partition1\default.xexpp' on device '\Device\Harddisk0\Partition1'
+[2026-10-05 09:31:49.852] [info] [core] [t45239] XEX image loaded at 82000000-82000000 (size 00000000)
+[2026-10-05 09:31:49.902] [info] [core] [t45239] XEX patch applied successfully: base version: 3.0.0.0, new version: 3.0.3.0
+[2026-10-05 09:31:49.902] [info] [core] [t45239] XEX image loaded at 82000000-831B0000 (size 011B0000)
+[2026-10-05 09:31:49.903] [info] [sys] [t45295] XThread::Execute thid 5 (handle=F8000028, 'Kernel Dispatch (F8000028)', native=DAF5C6C0, <host>)
+[2026-10-05 09:31:49.903] [info] [core] [t45239] No Skate 3 DLC packages found. Drop legally obtained DLC package files in /home/cloud/.local/share/skate3/dlc
+[2026-10-05 09:31:50.327] [info] [core] [t45239] Installed Skate 3 BIG-directory VFS overlay with 11 aliases from /home/cloud/Downloads/Skate3Recomp-Linux/game/data/content
+[2026-10-05 09:31:50.327] [info] [core] [t45239] native-render hook layer enabled
+[2026-10-05 09:31:50.327] [info] [core] [t45239] native-scene: guest output renderer registered (scene on)
+[2026-10-05 09:31:50.332] [info] [core] [t45239] Function table initialized for module: code=880B0000-8849CAD0, image=88000000-884C0000
+[2026-10-05 09:31:50.346] [info] [sys] [t45239] KernelState: Preparing module launch...
+[2026-10-05 09:31:50.346] [info] [core] [t45239] Initializing shader storage for title 454108E6...
+[2026-10-05 09:31:50.360] [info] [sys] [t45297] GetProcAddressByOrdinal: XamPartyGetUserList (0AFF) in xam -> thunk at 82F9E16C
+[2026-10-05 09:31:50.361] [info] [sys] [t45297] GetProcAddressByOrdinal: XamPartySendGameInvites (0B00) in xam -> thunk at 82F9E170
+[2026-10-05 09:31:50.361] [info] [sys] [t45297] GetProcAddressByOrdinal: XamPartySetCustomData (0B0B) in xam -> thunk at 82F9E174
+[2026-10-05 09:31:50.361] [info] [sys] [t45297] GetProcAddressByOrdinal: XamPartyGetBandwidth (0B10) in xam -> thunk at 82F9E178
+[2026-10-05 09:31:50.361] [info] [sys] [t45297] GetProcAddressByOrdinal: XamShowPartyUI (0305) in xam -> thunk at 82F9E17C
+[2026-10-05 09:31:50.361] [info] [sys] [t45297] GetProcAddressByOrdinal: XamShowCommunitySessionsUI (030B) in xam -> thunk at 82F9E180
+[2026-10-05 09:31:50.553] [warning] [fs] [t45329] VFS: entry not found for 'd:\fileserver.ini' (via symlink '\Device\Harddisk0\Partition1\fileserver.ini') on device '\Device\Harddisk0\Partition1'
+[2026-10-05 09:31:50.590] [warning] [krnl] [t45329] [NtCreateFile] FAILED: path='d:\fileserver.ini' -> 0xc000000f
+[2026-10-05 09:31:50.739] [info] [gpu] [t45297] SetInterruptCallback(82B758D8, 40002A80)
+[2026-10-05 09:31:50.859] [warning] [krnl] [t45297] IoDismountVolumeByFileHandle(0xf80001ec) - stub
+[2026-10-05 09:31:50.871] [warning] [krnl] [t45297] IoDismountVolumeByFileHandle(0xf80001ec) - stub
+[2026-10-05 09:31:50.923] [info] [core] [t45356] native-scene: render-state bank id=0x2200 ptr=400053B4
+[2026-10-05 09:31:50.924] [info] [core] [t45356] native-scene: render-state bank id=0x2180 ptr=400053A0
+[2026-10-05 09:31:50.924] [info] [core] [t45356] native-scene: render-state bank id=0x2000 ptr=40005300
+[2026-10-05 09:31:50.924] [info] [core] [t45356] native-scene: render-state bank id=0x2100 ptr=4000534C
+[2026-10-05 09:31:50.924] [info] [core] [t45356] native-scene: render-state bank id=0x2280 ptr=400053E4
+[2026-10-05 09:31:50.924] [info] [core] [t45356] native-scene: render-state bank id=0x2300 ptr=40005438
+[2026-10-05 09:31:50.926] [info] [core] [t45356] native-scene: render-state bank id=0x2380 ptr=400054D0
+[2026-10-05 09:31:50.926] [info] [core] [t45356] native-scene: render-state bank id=0x4900 ptr=40005200
+[2026-10-05 09:31:50.929] [info] [core] [t45356] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=0)
+[2026-10-05 09:31:50.933] [info] [core] [t45356] native-scene: offscreen 2D compose draw dropped (flags=20 tex=00000000 count=4) (n=1)
+[2026-10-05 09:31:53.734] [info] [gpu] [t45265] Created 152 graphics pipelines from Vulkan storage (152 requested)
+[2026-10-05 09:31:53.764] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=05258000+398000
+[2026-10-05 09:31:53.786] [info] [core] [t45265] native-scene: FE stack changed: [] (portrait window steady; steady-safe = 0/56/24/17/59)
+[2026-10-05 09:31:53.786] [info] [core] [t45265] native-scene: menus/loading - rendering the loading screen NATIVELY (presence context)
+[2026-10-05 09:31:53.796] [info] [core] [t45265] native-scene: pipelines created (MSAA x4, HDR)
+[2026-10-05 09:31:53.798] [info] [core] [t45265] native-scene: shadow atlas created (512x512 tiles, auto)
+[2026-10-05 09:31:53.798] [info] [core] [t45265] native-scene: static sun-shadow map created (12288x4096, 3 cascades)
+[2026-10-05 09:31:53.799] [info] [core] [t45265] native-scene: HDR post pipeline created
+[2026-10-05 09:31:53.801] [info] [core] [t45265] native-scene: rendering natively (0 items, 1280x720)
+[2026-10-05 09:31:53.801] [info] [core] [t45265] native-scene: 4 prewarm decode workers started
+[2026-10-05 09:31:53.803] [info] [core] [t45265] nrhi-vulkan: SLOW frame 8253us: pass_open=3us/2 flush=1us/6 copies=1us/7 table_miss=1us/11 set0_miss=828us/2 view_destroy=0us/0 view_create=26us/20 const=0us/2 pso=7393us/50 drain=0us/1
+[2026-10-05 09:31:53.827] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x1, value=0x1)
+[2026-10-05 09:31:53.827] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x8001, value=0x7)
+[2026-10-05 09:31:53.827] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x0, value=0x0)
+[2026-10-05 09:31:53.827] [info] [krnl] [t45331] XGIUserSetContextEx(user=1, context=0x1, value=0x1)
+[2026-10-05 09:31:53.828] [info] [krnl] [t45331] XGIUserSetContextEx(user=1, context=0x8001, value=0x7)
+[2026-10-05 09:31:53.828] [info] [krnl] [t45331] XGIUserSetContextEx(user=2, context=0x1, value=0x1)
+[2026-10-05 09:31:53.828] [info] [krnl] [t45331] XGIUserSetContextEx(user=2, context=0x8001, value=0x7)
+[2026-10-05 09:31:53.828] [info] [krnl] [t45331] XGIUserSetContextEx(user=3, context=0x1, value=0x1)
+[2026-10-05 09:31:53.828] [info] [krnl] [t45331] XGIUserSetContextEx(user=3, context=0x8001, value=0x7)
+[2026-10-05 09:31:53.934] [info] [gpu] [t45265] suppression census: executing draws at surface_pitch=320
+[2026-10-05 09:31:53.959] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] suppression census: executing draws at surface_pitch=80
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460D000+1000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460A000+1000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-05 09:31:53.960] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460D000+1000
+[2026-10-05 09:31:53.961] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.961] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.961] [info] [core] [t45356] native-render: auto-exposure re-pinned at zone max 2.500 (adaptation had moved it to 1.125; luminance measurement unavailable without resolve readbacks)
+[2026-10-05 09:31:53.962] [info] [core] [t45265] native-scene: gameplay (prewarm: 0 meshes decoded, 0 dropped, 0 still queued)
+[2026-10-05 09:31:53.963] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.963] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-05 09:31:53.963] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460C000+1000
+[2026-10-05 09:31:53.963] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=04614000+2D000
+[2026-10-05 09:31:53.963] [info] [gpu] [t45265] VulkanRenderTargetCache: Direct resolve fallback (cvar-disabled): copy_shader=0, scaled=false, depth=false, dest_array=0, source_msaa=0, source_format=0, dest_format=6, dest_number=0, exp_bias=0, sample_select=0, dest=0460E000+6000
+[2026-10-05 09:31:54.746] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:55.382] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:56.044] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:56.696] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=2 | ring peak=10KB ovf=0
+[2026-10-05 09:31:57.356] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:58.030] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:58.686] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:59.322] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:31:59.957] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:00.597] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:01.231] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:01.869] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:02.504] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:03.147] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:03.788] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:04.427] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:05.066] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:05.704] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:06.346] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:06.984] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:07.620] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:08.261] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:08.580] [info] [core] [t45328] SDL OnControllerDeviceAdded: "8BitDo Ultimate Wireless / Pro 2 Wired Controller", JoystickType(1), GameControllerType(3), VendorID(0x2DC8), ProductID(0x3106)
+[2026-10-05 09:32:08.581] [info] [core] [t45328] SDL OnControllerDeviceAdded: Added at index 0.
+[2026-10-05 09:32:08.901] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:09.537] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:10.172] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=4 | ring peak=10KB ovf=0
+[2026-10-05 09:32:10.807] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=441MB budget=5955MB | heap1 use=34MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=0MB, default dl=0MB host=0MB | retired=3 | ring peak=10KB ovf=0
+[2026-10-05 09:32:11.101] [info] [core] [t45356] native-scene: FMV planes published (y=[0A000002 A59F0002] u=[06000002 A5B15002] v=[06000002 A5AD1002])
+[2026-10-05 09:32:11.103] [info] [core] [t45265] native-scene: FMV rendering NATIVELY (movie-quad YUV substitution)
+[2026-10-05 09:32:11.251] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 7E1D5383D184B683->170757BD807A3D00 inc=0 route=inline
+[2026-10-05 09:32:11.293] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 170757BD807A3D00->95AFA94E50CEEFA3 inc=0 route=inline
+[2026-10-05 09:32:11.293] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp CD3429208597C683->3DDF017EB89C5D23 inc=0 route=inline
+[2026-10-05 09:32:11.317] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 95AFA94E50CEEFA3->B680DA62A004FFA6 inc=0 route=inline
+[2026-10-05 09:32:11.317] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3DDF017EB89C5D23->F56C4584CCEB85C0 inc=0 route=inline
+[2026-10-05 09:32:11.357] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp B680DA62A004FFA6->344ACE7427A6FC63 inc=0 route=inline
+[2026-10-05 09:32:11.357] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp F56C4584CCEB85C0->CD3429208597C683 inc=0 route=inline
+[2026-10-05 09:32:11.380] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 344ACE7427A6FC63->8A65F5D685EA74B9 inc=0 route=inline
+[2026-10-05 09:32:11.381] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp CD3429208597C683->2E231CE8BCA97B2E inc=0 route=inline
+[2026-10-05 09:32:11.381] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CD3429208597C683->AA2FEF9DF194D542 inc=0 route=inline
+[2026-10-05 09:32:11.421] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 8A65F5D685EA74B9->54F69B5874CAB94E inc=0 route=inline
+[2026-10-05 09:32:11.421] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 2E231CE8BCA97B2E->FE2D82F7F63A405E inc=0 route=inline
+[2026-10-05 09:32:11.421] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp AA2FEF9DF194D542->2338F8531D4C394C inc=0 route=inline
+[2026-10-05 09:32:11.446] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 54F69B5874CAB94E->95AFA94E50CEEFA3 inc=0 route=inline
+[2026-10-05 09:32:11.447] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp FE2D82F7F63A405E->3DDF017EB89C5D23 inc=0 route=inline
+[2026-10-05 09:32:11.447] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 2338F8531D4C394C->CD3429208597C683 inc=0 route=inline
+[2026-10-05 09:32:11.487] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp 95AFA94E50CEEFA3->D5C88630FD35B086 inc=0 route=inline
+[2026-10-05 09:32:11.487] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3DDF017EB89C5D23->39D8F072B1C8DB26 inc=0 route=inline
+[2026-10-05 09:32:11.487] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CD3429208597C683->3584583105D40546 inc=0 route=inline
+[2026-10-05 09:32:11.527] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=3671F79A59CBF4F7 fp D5C88630FD35B086->760CE5703390833A inc=0 route=inline
+[2026-10-05 09:32:11.528] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 39D8F072B1C8DB26->E07DEECD7E41446E inc=0 route=inline
+[2026-10-05 09:32:11.528] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 3584583105D40546->73A86E642688DC2F inc=0 route=inline
+[2026-10-05 09:32:11.550] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 760CE5703390833A->BE3C347F47DCC0C6 inc=0 route=inline
+[2026-10-05 09:32:11.550] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp E07DEECD7E41446E->81B7DB7B81E7E1DB inc=0 route=inline
+[2026-10-05 09:32:11.550] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 73A86E642688DC2F->D312597FE57700A9 inc=0 route=inline
+[2026-10-05 09:32:11.590] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp BE3C347F47DCC0C6->CC690FC83FB84017 inc=0 route=inline
+[2026-10-05 09:32:11.590] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 81B7DB7B81E7E1DB->AE9BEB5F253C6F25 inc=0 route=inline
+[2026-10-05 09:32:11.590] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp D312597FE57700A9->734B9C0BDECF2CE1 inc=0 route=inline
+[2026-10-05 09:32:11.615] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp CC690FC83FB84017->2A3E39BF2030C8E3 inc=0 route=inline
+[2026-10-05 09:32:11.615] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp AE9BEB5F253C6F25->76F8CFFDAB24FBA0 inc=0 route=inline
+[2026-10-05 09:32:11.615] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 734B9C0BDECF2CE1->F99952A782F3D8F8 inc=0 route=inline
+[2026-10-05 09:32:11.656] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 2A3E39BF2030C8E3->0B02438A6B17384F inc=0 route=inline
+[2026-10-05 09:32:11.656] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 76F8CFFDAB24FBA0->116B12DB164DF3AB inc=0 route=inline
+[2026-10-05 09:32:11.656] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp F99952A782F3D8F8->45530FFFBA2DDF19 inc=0 route=inline
+[2026-10-05 09:32:11.678] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 0B02438A6B17384F->C795429B9DFBDC66 inc=0 route=inline
+[2026-10-05 09:32:11.679] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 116B12DB164DF3AB->AEB05B60F2290CFD inc=0 route=inline
+[2026-10-05 09:32:11.679] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 45530FFFBA2DDF19->30B206AF2817F8AC inc=0 route=inline
+[2026-10-05 09:32:11.720] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp C795429B9DFBDC66->9CED5D961A4F0170 inc=0 route=inline
+[2026-10-05 09:32:11.720] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp AEB05B60F2290CFD->EB62EA6D98FFEC9C inc=0 route=inline
+[2026-10-05 09:32:11.720] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 30B206AF2817F8AC->0E147281F356BA7B inc=0 route=inline
+[2026-10-05 09:32:11.742] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 9CED5D961A4F0170->4A900F88E028E183 inc=0 route=inline
+[2026-10-05 09:32:11.742] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp EB62EA6D98FFEC9C->3D953DBE20498F27 inc=0 route=inline
+[2026-10-05 09:32:11.742] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 0E147281F356BA7B->464BE7A56F279221 inc=0 route=inline
+[2026-10-05 09:32:11.785] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 4A900F88E028E183->F2A08FD58B164629 inc=0 route=inline
+[2026-10-05 09:32:11.785] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3D953DBE20498F27->DAF8B0B2F17E4CD8 inc=0 route=inline
+[2026-10-05 09:32:11.785] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 464BE7A56F279221->6151462ADB3BE629 inc=0 route=inline
+[2026-10-05 09:32:11.820] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=457MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=1 | ring peak=10KB ovf=0
+[2026-10-05 09:32:11.826] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp F2A08FD58B164629->AD6C4B2C9B22FB0A inc=0 route=inline
+[2026-10-05 09:32:11.827] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp DAF8B0B2F17E4CD8->DFC2156CC9B0E915 inc=0 route=inline
+[2026-10-05 09:32:11.827] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 6151462ADB3BE629->8911FD958FE4060B inc=0 route=inline
+[2026-10-05 09:32:11.848] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp AD6C4B2C9B22FB0A->7A63047BB71BFF88 inc=0 route=inline
+[2026-10-05 09:32:11.849] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp DFC2156CC9B0E915->869A7E87913C406E inc=0 route=inline
+[2026-10-05 09:32:11.849] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 8911FD958FE4060B->1E9D4F8A6CF6F00B inc=0 route=inline
+[2026-10-05 09:32:11.890] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 7A63047BB71BFF88->2A24FDC23AFCD9F9 inc=0 route=inline
+[2026-10-05 09:32:11.890] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 869A7E87913C406E->D3FDFCDC303D1F5E inc=0 route=inline
+[2026-10-05 09:32:11.890] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp 1E9D4F8A6CF6F00B->CCD1D057A2726563 inc=0 route=inline
+[2026-10-05 09:32:11.913] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp 2A24FDC23AFCD9F9->CBDD17B43266A3E3 inc=0 route=inline
+[2026-10-05 09:32:11.914] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp D3FDFCDC303D1F5E->3B1A69DF365B3C8E inc=0 route=inline
+[2026-10-05 09:32:11.914] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp CCD1D057A2726563->A09AADCA8EBAF318 inc=0 route=inline
+[2026-10-05 09:32:11.956] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp CBDD17B43266A3E3->B347BAC7CF6C3426 inc=0 route=inline
+[2026-10-05 09:32:11.956] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 3B1A69DF365B3C8E->143524F908872157 inc=0 route=inline
+[2026-10-05 09:32:11.956] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp A09AADCA8EBAF318->E5F5F297A914912C inc=0 route=inline
+[2026-10-05 09:32:11.978] [info] [core] [t45265] native-scene: 2D content heal 1280x720 key=366D0F9BAECBF4F7 fp B347BAC7CF6C3426->9EDFEEA27FB6EA99 inc=0 route=inline
+[2026-10-05 09:32:11.978] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=9FF053A90389B277 fp 143524F908872157->9A3A4A839A2AAABC inc=0 route=inline
+[2026-10-05 09:32:11.978] [info] [core] [t45265] native-scene: 2D content heal 640x360 key=28A901B61B76F277 fp E5F5F297A914912C->23BAC957A42EAA1E inc=0 route=inline
+[2026-10-05 09:32:12.805] [info] [core] [t45297] Skate 3: frontend movie skipped by user input
+[2026-10-05 09:32:13.047] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=457MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=17KB ovf=0
+[2026-10-05 09:32:14.250] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=457MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=22KB ovf=0
+[2026-10-05 09:32:14.737] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x8001, value=0x0)
+[2026-10-05 09:32:14.739] [info] [core] [t45265] native-scene: FE stack changed: [0] (portrait window steady; steady-safe = 0/56/24/17/59)
+[2026-10-05 09:32:14.739] [info] [core] [t45265] native-scene: menus/loading - rendering the loading screen NATIVELY (presence context)
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F796054 1024x512 key=5551065C7D268A21 served_fp=C8937E02CA81109E live_fp=C8937E02CA81109E valid=1 inc=0 recheck=f17645
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F76E054 256x512 key=9B3813463DFFEB21 served_fp=D2DF6817BFF5AE6C live_fp=D2DF6817BFF5AE6C valid=1 inc=0 recheck=f17645
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F709054 1024x256 key=759FB2ACA5963A21 served_fp=9FD86B03D831401C live_fp=9FD86B03D831401C valid=1 inc=0 recheck=f17645
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F6EF054 256x256 key=004BDD13D4A03B21 served_fp=42255B66FCB6657C live_fp=42255B66FCB6657C valid=1 inc=0 recheck=f17645
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F701054 256x128 key=023514B041BB9B21 served_fp=F32AC47B855A8B83 live_fp=F32AC47B855A8B83 valid=1 inc=0 recheck=f17645
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F75E054 256x256 key=304123B8D472EB21 served_fp=3698895BA0E1CD4E live_fp=3698895BA0E1CD4E valid=1 inc=0 recheck=f17652
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1F74D054 128x256 key=82DBF783741264A1 served_fp=1CA79C15E3A2AA5E live_fp=1CA79C15E3A2AA5E valid=1 inc=0 recheck=f17652
+[2026-10-05 09:32:14.739] [info] [core] [t45265] 2d-thumb: f17644 w1=1FC60054 512x512 key=DB25867DD12F6821 served_fp=057AFBDB31473E43 live_fp=057AFBDB31473E43 valid=1 inc=0 recheck=f17651
+[2026-10-05 09:32:14.765] [warning] [fs] [t45327] VFS: entry not found for '\Device\Harddisk0\Partition1\data\webkit\EAWebkit.xexpp' on device '\Device\Harddisk0\Partition1'
+[2026-10-05 09:32:14.765] [info] [core] [t45327] XEX image loaded at 88000000-88000000 (size 00000000)
+[2026-10-05 09:32:14.765] [info] [core] [t45327] XEX patch applied successfully: base version: 3.0.0.0, new version: 3.0.3.0
+[2026-10-05 09:32:14.765] [info] [core] [t45327] XEX image loaded at 88000000-884C0000 (size 004C0000)
+[2026-10-05 09:32:15.224] [warning] [fs] [t45329] VFS: entry not found for 'd:\data\livingworld\PluginDescriptor\gatheringplace_01.stategraph' (via symlink 'skate3bigdirs:\data\livingworld\PluginDescriptor\gatheringplace_01.stategraph') on device 'skate3bigdirs:'
+[2026-10-05 09:32:15.224] [warning] [krnl] [t45329] [NtCreateFile] FAILED: path='d:\data\livingworld\PluginDescriptor\gatheringplace_01.stategraph' -> 0xc000000f
+[2026-10-05 09:32:15.224] [warning] [fs] [t45329] VFS: entry not found for 'd:\data\state\livingworldentities\pedestrian\plugin\gatherbehaviourgeneric.stategraph' (via symlink 'skate3bigdirs:\data\state\livingworldentities\pedestrian\plugin\gatherbehaviourgeneric.stategraph') on device 'skate3bigdirs:'
+[2026-10-05 09:32:15.224] [warning] [krnl] [t45329] [NtCreateFile] FAILED: path='d:\data\state\livingworldentities\pedestrian\plugin\gatherbehaviourgeneric.stategraph' -> 0xc000000f
+[2026-10-05 09:32:15.450] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=457MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=24MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=30KB ovf=0
+[2026-10-05 09:32:16.200] [warning] [krnl] [t45337] __imp__XNetLogonGetTitleID STUB
+[2026-10-05 09:32:16.200] [warning] [krnl] [t45337] __imp__XNetLogonGetTitleID STUB
+[2026-10-05 09:32:16.552] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x1, value=0x0)
+[2026-10-05 09:32:16.552] [info] [krnl] [t45331] XGIUserSetContextEx(user=1, context=0x1, value=0x0)
+[2026-10-05 09:32:16.552] [info] [krnl] [t45331] XGIUserSetContextEx(user=2, context=0x1, value=0x0)
+[2026-10-05 09:32:16.552] [info] [krnl] [t45331] XGIUserSetContextEx(user=3, context=0x1, value=0x0)
+[2026-10-05 09:32:16.639] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=457MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=79MB budget=166MB | bufs upload dl=26MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=30KB ovf=0
+[2026-10-05 09:32:16.669] [info] [core] [t45265] 2d-thumb: f18628 w1=1FBA0054 512x512 key=10D0EC50792B6821 served_fp=057AFBDB31473E43 live_fp=057AFBDB31473E43 valid=1 inc=0 recheck=f0
+[2026-10-05 09:32:16.669] [info] [core] [t45265] 2d-thumb: f18628 w1=1F973054 256x128 key=FB4C6D25C2BAFB21 served_fp=F32AC47B855A8B83 live_fp=F32AC47B855A8B83 valid=1 inc=0 recheck=f0
+[2026-10-05 09:32:17.117] [info] [core] [t45485] native-scene: dynobj mesh 45B9A640 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.169] [info] [core] [t45487] native-scene: dynobj mesh 45B32C70 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.169] [info] [core] [t45485] native-scene: dynobj mesh 45B34A90 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.170] [info] [core] [t45484] native-scene: dynobj mesh 45B339B0 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.171] [info] [core] [t45485] native-scene: dynobj mesh 45B894A0 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.172] [info] [core] [t45486] native-scene: dynobj mesh 45B2D910 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.172] [info] [core] [t45484] native-scene: dynobj mesh 45B86690 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.173] [info] [core] [t45487] native-scene: dynobj mesh 45B8C300 layout normal_fmt=0 tb_fmt=16 skinned=false
+[2026-10-05 09:32:17.177] [info] [core] [t45486] native-scene: two-sided sheet mesh 45B7FEA0 (1047 indices, 212/349 twins) -> cull-back
+[2026-10-05 09:32:17.179] [info] [core] [t45486] native-scene: two-sided sheet mesh 45B75B20 (270 indices, 56/90 twins) -> cull-back
+[2026-10-05 09:32:17.191] [info] [core] [t45486] native-scene: two-sided sheet mesh 45B1F6B0 (384 indices, 88/128 twins) -> cull-back
+[2026-10-05 09:32:17.192] [info] [core] [t45484] native-scene: MIP DIAG 256x256 mip 1/7 zero_samples=12/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=82000002 w1=BA50B054 w2=001FE0FF mip_addr=BA51B000
+[2026-10-05 09:32:17.192] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 1/5 zero_samples=12/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=BA4FF044 w2=0007E03F mip_addr=BA501000
+[2026-10-05 09:32:17.201] [info] [core] [t45486] native-scene: two-sided sheet mesh 45B5B940 (1140 indices, 336/380 twins) -> cull-back
+[2026-10-05 09:32:17.221] [info] [core] [t45487] native-scene: two-sided sheet mesh 45AD9CB0 (240 indices, 60/80 twins) -> cull-back
+[2026-10-05 09:32:17.222] [info] [core] [t45486] native-scene: MIP DIAG 32x32 mip 1/4 zero_samples=19/32 guard_zeroed=0/256 ox=16 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80400002 w1=BA4EA044 w2=0003E01F mip_addr=BA4EB000
+[2026-10-05 09:32:17.223] [info] [core] [t45486] native-scene: MIP DIAG 32x32 mip 2/4 zero_samples=13/32 guard_zeroed=0/64 ox=8 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80400002 w1=BA4EA044 w2=0003E01F mip_addr=BA4EB000
+[2026-10-05 09:32:17.223] [info] [core] [t45487] native-scene: two-sided sheet mesh 45AFFF10 (408 indices, 86/136 twins) -> cull-back
+[2026-10-05 09:32:17.227] [info] [core] [t45484] native-scene: two-sided sheet mesh 45B00AD0 (1758 indices, 452/586 twins) -> cull-back
+[2026-10-05 09:32:17.298] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=488MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=109MB budget=136MB | bufs upload dl=30MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=30KB ovf=0
+[2026-10-05 09:32:17.477] [info] [core] [t45487] native-scene: two-sided sheet mesh 45AAD910 (810 indices, 186/270 twins) -> cull-back
+[2026-10-05 09:32:17.503] [info] [core] [t45486] native-scene: two-sided sheet mesh 45A923D0 (588 indices, 118/196 twins) -> cull-back
+[2026-10-05 09:32:17.506] [info] [core] [t45487] native-scene: two-sided sheet mesh 45A78D20 (480 indices, 116/160 twins) -> cull-back
+[2026-10-05 09:32:17.506] [info] [core] [t45485] native-scene: two-sided sheet mesh 45A80B00 (1761 indices, 374/587 twins) -> cull-back
+[2026-10-05 09:32:17.507] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 1/5 zero_samples=23/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B9FBE044 w2=0007E03F mip_addr=B9FC0000
+[2026-10-05 09:32:17.507] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 2/5 zero_samples=23/32 guard_zeroed=0/256 ox=16 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B9FBE044 w2=0007E03F mip_addr=B9FC0800
+[2026-10-05 09:32:17.507] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 3/5 zero_samples=25/32 guard_zeroed=0/64 ox=8 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B9FBE044 w2=0007E03F mip_addr=B9FC0800
+[2026-10-05 09:32:17.734] [info] [core] [t45486] native-scene: two-sided sheet mesh 45A13710 (963 indices, 18/321 twins) -> cull-back
+[2026-10-05 09:32:17.793] [info] [core] [t45484] native-scene: two-sided sheet mesh 459EF9B0 (1572 indices, 38/524 twins) -> cull-back
+[2026-10-05 09:32:17.839] [info] [core] [t45487] native-scene: two-sided sheet mesh 459CC8A0 (1869 indices, 20/623 twins) -> cull-back
+[2026-10-05 09:32:17.858] [info] [core] [t45484] native-scene: two-sided sheet mesh 459B7B50 (1080 indices, 20/360 twins) -> cull-back
+[2026-10-05 09:32:17.869] [info] [core] [t45486] native-scene: two-sided sheet mesh 459B64C0 (2406 indices, 30/802 twins) -> cull-back
+[2026-10-05 09:32:18.101] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=584MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=109MB budget=136MB | bufs upload dl=42MB host=4MB, default dl=0MB host=0MB | retired=9 | ring peak=30KB ovf=0
+[2026-10-05 09:32:18.154] [info] [core] [t45356] native-scene: tInstance::m_pRModel offset confirmed at +0x80
+[2026-10-05 09:32:18.626] [info] [core] [t45265] nrhi-vulkan: SLOW frame 9490us: pass_open=1us/3 flush=0us/7 copies=3us/12 table_miss=0us/0 set0_miss=0us/0 view_destroy=11us/1 view_create=9474us/5 const=0us/79 pso=0us/0 drain=1us/1
+[2026-10-05 09:32:18.672] [info] [core] [t45486] native-scene: MIP DIAG 512x512 mip 1/8 zero_samples=17/32 guard_zeroed=0/4096 ox=0 oy=0 pitch_b=64 size=65536 min=65536 tiled=1 fmt=20 w0=84000002 w1=B899A054 w2=003FE1FF mip_addr=B89DA000
+[2026-10-05 09:32:18.672] [info] [core] [t45486] native-scene: MIP DIAG 512x512 mip 2/8 zero_samples=13/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=84000002 w1=B899A054 w2=003FE1FF mip_addr=B89EA000
+[2026-10-05 09:32:18.682] [info] [core] [t45265] nrhi-vulkan: SLOW frame 5606us: pass_open=1us/3 flush=1us/7 copies=1us/9 table_miss=0us/0 set0_miss=0us/0 view_destroy=10us/1 view_create=4866us/3 const=0us/79 pso=0us/0 drain=727us/1
+[2026-10-05 09:32:18.695] [info] [core] [t45265] nrhi-vulkan: SLOW frame 4504us: pass_open=1us/3 flush=0us/7 copies=1us/9 table_miss=0us/0 set0_miss=0us/0 view_destroy=6us/1 view_create=18us/2 const=0us/79 pso=0us/0 drain=4478us/1
+[2026-10-05 09:32:18.716] [info] [core] [t45265] nrhi-vulkan: SLOW frame 4888us: pass_open=0us/3 flush=0us/6 copies=0us/0 table_miss=0us/0 set0_miss=0us/0 view_destroy=6us/1 view_create=4879us/1 const=0us/79 pso=0us/0 drain=3us/1
+[2026-10-05 09:32:18.798] [info] [core] [t45265] nrhi-vulkan: SLOW frame 4295us: pass_open=1us/3 flush=0us/7 copies=1us/10 table_miss=0us/0 set0_miss=0us/0 view_destroy=12us/1 view_create=17us/2 const=0us/79 pso=0us/0 drain=4264us/1
+[2026-10-05 09:32:18.836] [info] [core] [t45265] nrhi-vulkan: SLOW frame 4317us: pass_open=1us/3 flush=1us/7 copies=2us/8 table_miss=0us/0 set0_miss=0us/0 view_destroy=12us/1 view_create=20us/2 const=0us/79 pso=0us/0 drain=4281us/1
+[2026-10-05 09:32:18.852] [info] [core] [t45265] nrhi-vulkan: SLOW frame 5611us: pass_open=1us/3 flush=0us/7 copies=1us/10 table_miss=0us/0 set0_miss=0us/0 view_destroy=9us/1 view_create=16us/2 const=0us/79 pso=0us/0 drain=5584us/1
+[2026-10-05 09:32:18.885] [info] [core] [t45265] nrhi-vulkan: SLOW frame 5958us: pass_open=1us/3 flush=1us/6 copies=0us/0 table_miss=0us/0 set0_miss=0us/0 view_destroy=16us/1 view_create=5940us/1 const=0us/79 pso=0us/0 drain=0us/1
+[2026-10-05 09:32:18.938] [info] [core] [t45484] native-scene: MIP DIAG 512x512 mip 1/8 zero_samples=19/32 guard_zeroed=0/4096 ox=0 oy=0 pitch_b=64 size=65536 min=65536 tiled=1 fmt=20 w0=84000002 w1=B53FE054 w2=003FE1FF mip_addr=B543E000
+[2026-10-05 09:32:18.938] [info] [core] [t45484] native-scene: MIP DIAG 512x512 mip 2/8 zero_samples=17/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=84000002 w1=B53FE054 w2=003FE1FF mip_addr=B544E000
+[2026-10-05 09:32:18.938] [info] [core] [t45484] native-scene: MIP DIAG 512x512 mip 3/8 zero_samples=15/32 guard_zeroed=0/256 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=84000002 w1=B53FE054 w2=003FE1FF mip_addr=B5452000
+[2026-10-05 09:32:18.957] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=648MB budget=5987MB | heap1 use=36MB budget=23889MB | heap2(DL) use=109MB budget=136MB | bufs upload dl=53MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=30KB ovf=0
+[2026-10-05 09:32:19.137] [info] [core] [t45487] native-scene: MIP DIAG 256x256 mip 1/7 zero_samples=12/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=82000002 w1=B8688054 w2=001FE0FF mip_addr=B8698000
+[2026-10-05 09:32:19.179] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 1/5 zero_samples=23/32 guard_zeroed=0/1024 ox=0 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B6FD4044 w2=0007E03F mip_addr=B6FD6000
+[2026-10-05 09:32:19.179] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 2/5 zero_samples=16/32 guard_zeroed=0/256 ox=16 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B6FD4044 w2=0007E03F mip_addr=B6FD6800
+[2026-10-05 09:32:19.179] [info] [core] [t45484] native-scene: MIP DIAG 64x64 mip 3/5 zero_samples=17/32 guard_zeroed=0/64 ox=8 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=B6FD4044 w2=0007E03F mip_addr=B6FD6800
+[2026-10-05 09:32:19.218] [info] [core] [t45265] 2d-thumb: f20606 w1=1FC20054 512x512 key=B708EF3162936821 served_fp=057AFBDB31473E43 live_fp=057AFBDB31473E43 valid=1 inc=0 recheck=f20608
+[2026-10-05 09:32:19.330] [info] [core] [t45484] native-scene: MIP DIAG 512x256 mip 1/7 zero_samples=14/32 guard_zeroed=0/2048 ox=0 oy=0 pitch_b=64 size=32768 min=32768 tiled=1 fmt=20 w0=84000002 w1=B5984054 w2=001FE1FF mip_addr=B59A4000
+[2026-10-05 09:32:19.330] [info] [core] [t45484] native-scene: MIP DIAG 512x256 mip 2/7 zero_samples=13/32 guard_zeroed=0/512 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=84000002 w1=B5984054 w2=001FE1FF mip_addr=B59AC000
+[2026-10-05 09:32:19.620] [info] [core] [t45484] native-scene: MIP DIAG 32x32 mip 1/4 zero_samples=17/32 guard_zeroed=0/256 ox=16 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80400002 w1=B80B2044 w2=0003E01F mip_addr=B80B3000
+[2026-10-05 09:32:19.620] [info] [core] [t45484] native-scene: MIP DIAG 32x32 mip 2/4 zero_samples=19/32 guard_zeroed=0/64 ox=8 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80400002 w1=B80B2044 w2=0003E01F mip_addr=B80B3000
+[2026-10-05 09:32:19.705] [info] [core] [t45484] native-scene: MIP DIAG 1024x1024 mip 1/9 zero_samples=16/32 guard_zeroed=0/16384 ox=0 oy=0 pitch_b=128 size=262144 min=262144 tiled=1 fmt=20 w0=88000002 w1=B5824054 w2=007FE3FF mip_addr=B5924000
+[2026-10-05 09:32:19.725] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x8001, value=0x1)
+[2026-10-05 09:32:19.727] [info] [core] [t45265] native-scene: gameplay (prewarm: 3058 meshes decoded, 0 dropped, 134 still queued)
+[2026-10-05 09:32:19.728] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.729] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.729] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.731] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.735] [info] [core] [t45356] native-scene: camera sampler thread started (~1 kHz)
+[2026-10-05 09:32:19.735] [info] [core] [t45356] native-scene: smooth-camera reconstruction check max_rel=0.000000
+[2026-10-05 09:32:19.736] [info] [core] [t45356] native-scene: popup background blur ON (kernel scale 0.8, fade 0.88/0.86/0.85)
+[2026-10-05 09:32:19.736] [info] [core] [t45265] native-scene: taking over natively (804 items; prewarm 3058 done / 0 dropped / 127 queued)
+[2026-10-05 09:32:19.738] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.738] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.738] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.739] [info] [core] [t45356] native-scene: fog capture REJECTED by family gate (prevented flash): vs_obj=401173B4 ps_obj=4331617C color=(0.022,0.069,0.133) vs current (0.000,0.000,0.000)
+[2026-10-05 09:32:19.741] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.128,-0.240,0.962,299.28)(0.977,0.198,-0.081,75.17)(-0.172,0.950,0.260,-434.69)
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: texture re-decode key=0F6C027118311BDE reason=nb words=[80400002 B7E73044 0001E00F 00001414 00000100 B7E73A00]
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: texture re-decode key=CA8E74F457301BDE reason=nb words=[80400002 B8B09044 0001E00F 00001414 00000100 B8B09A00]
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.755] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406F1CE0 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: near-black decode obj=406BC720 slot=2 served as white fallback (mid-compose/stream content)
+[2026-10-05 09:32:19.756] [info] [core] [t45265] native-scene: texture re-decode key=22A3C4179A45BBDE reason=nb words=[80400002 B8A54044 0001E00F 00001414 00000100 B8A54A00]
+[2026-10-05 09:32:19.757] [info] [core] [t45265] native-scene: texture re-decode key=E1AAF03C885EFBDE reason=nb words=[80400002 B8B32044 0001E00F 00001414 00000100 B8B32A00]
+[2026-10-05 09:32:19.757] [info] [core] [t45265] native-scene: texture re-decode key=8125C856C1761BDE reason=nb words=[80400002 B8D7F044 0001E00F 00001414 00000100 B8D7FA00]
+[2026-10-05 09:32:19.757] [info] [core] [t45265] native-scene: texture re-decode key=E96645A3031B8CEC reason=nb words=[81000002 B8F2B052 0001E00F 00000D10 00000000 00000200]
+[2026-10-05 09:32:19.757] [info] [core] [t45265] native-scene: texture re-decode key=DC559A714FF43BDE reason=nb words=[80400002 B8D80044 0001E00F 00001414 00000100 B8D80A00]
+[2026-10-05 09:32:19.757] [info] [core] [t45265] native-scene: texture re-decode key=71245518109F8ACE reason=nb words=[80800002 B8D81044 0007E03F 00001414 00000180 B8D83A00]
+[2026-10-05 09:32:19.758] [info] [core] [t45265] native-scene: MIP DIAG 64x64 mip 2/5 zero_samples=12/32 guard_zeroed=0/256 ox=16 oy=0 pitch_b=32 size=3072 min=2048 tiled=1 fmt=4 w0=80800002 w1=03F5E044 w2=0007E03F mip_addr=03F60800
+[2026-10-05 09:32:19.853] [info] [core] [t45265] native-scene: ssao pipeline created (MSAA x4, HDR)
+[2026-10-05 09:32:19.873] [info] [core] [t45356] native-scene: dynamicobject rows captured sun=(-0.604,0.731,0.318) expo=2.50 amb=(0.040,0.040,0.040) bounce=0.000 mult=1.00 floor=0.060
+[2026-10-05 09:32:19.900] [info] [core] [t45265] native-scene: texture re-decode key=945F0F8D2D3A1BDE reason=nb words=[80400002 B8D0B044 0001E00F 00001414 00000100 B8D0BA00]
+[2026-10-05 09:32:19.900] [info] [core] [t45265] native-scene: texture re-decode key=3EDB6ECAB7221BDE reason=nb words=[80400002 B891F044 0001E00F 00001414 00000100 B891FA00]
+[2026-10-05 09:32:19.901] [info] [core] [t45265] native-scene: detail fold tex=406BCDE0 = (+0.000980, -0.097059)
+[2026-10-05 09:32:19.944] [info] [core] [t45265] native-scene: volumetric pipeline created (MSAA x4)
+[2026-10-05 09:32:19.944] [info] [core] [t45265] native-scene: vol2 shafts=0 gates[cvar=1 shvalid=1 atlas=1 insrv=0] inv=1 ws=0 nsm=1 tex=0 tint=(0.054,0.172,0.333) expo=2.50 sunv=(-0.10,0.63,0.77) lin=ao
+[2026-10-05 09:32:19.951] [info] [core] [t45356] native-scene: popup background blur off (kernel scale 0.0, fade 0.88/0.86/0.85)
+[2026-10-05 09:32:19.955] [info] [core] [t45265] native-scene: world-shadow map primed (dynobj c5/c6/c7 rows)
+[2026-10-05 09:32:19.957] [info] [core] [t45265] native-scene: vol2 shafts=1 gates[cvar=1 shvalid=1 atlas=1 insrv=1] inv=1 ws=1 nsm=1 tex=1 tint=(0.054,0.172,0.333) expo=2.50 sunv=(-0.08,0.69,0.72) lin=ao
+[2026-10-05 09:32:19.983] [info] [core] [t45265] native-scene: vol2 shafts=1 gates[cvar=1 shvalid=1 atlas=1 insrv=1] inv=1 ws=1 nsm=1 tex=1 tint=(0.054,0.172,0.333) expo=2.50 sunv=(-0.08,0.69,0.72) lin=ao
+[2026-10-05 09:32:19.988] [info] [core] [t45265] native-scene: vol2 shafts=1 gates[cvar=1 shvalid=1 atlas=1 insrv=1] inv=1 ws=1 nsm=1 tex=1 tint=(0.054,0.172,0.333) expo=2.50 sunv=(-0.08,0.69,0.72) lin=ao
+[2026-10-05 09:32:20.042] [info] [core] [t45486] native-scene: MIP DIAG 64x64 mip 1/5 zero_samples=32/32 guard_zeroed=0/64 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=81000002 w1=BD29C054 w2=0007E03F mip_addr=BD2A0000
+[2026-10-05 09:32:20.089] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2C760 mesh=47EDC960 fam=3 age=1 alpha=0.00 (n=0)
+[2026-10-05 09:32:20.089] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2C710 mesh=47EDB340 fam=5 age=1 alpha=0.00 (n=1)
+[2026-10-05 09:32:20.093] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2C760 mesh=47EDC960 fam=3 age=2 alpha=0.00 (n=2)
+[2026-10-05 09:32:20.093] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2C710 mesh=47EDB340 fam=5 age=2 alpha=0.00 (n=3)
+[2026-10-05 09:32:20.099] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EDB340 age=1 ropa=0 fam=5 (n=1)
+[2026-10-05 09:32:20.099] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EDC960 age=1 ropa=0 fam=3 (n=2)
+[2026-10-05 09:32:20.108] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EDB340 age=2 ropa=0 fam=5 (n=3)
+[2026-10-05 09:32:20.108] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EDC960 age=2 ropa=0 fam=3 (n=4)
+[2026-10-05 09:32:20.351] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2CF30 mesh=47EE38B0 fam=3 age=1 alpha=0.00 (n=4)
+[2026-10-05 09:32:20.357] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2CF30 mesh=47EE38B0 fam=3 age=2 alpha=0.00 (n=5)
+[2026-10-05 09:32:20.361] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EE38B0 age=1 ropa=0 fam=3 (n=5)
+[2026-10-05 09:32:20.366] [info] [core] [t45356] native-scene: dyn gap fill mesh=47EE38B0 age=2 ropa=0 fam=3 (n=6)
+[2026-10-05 09:32:20.391] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=732MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=126MB budget=119MB | bufs upload dl=76MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=433KB ovf=0
+[2026-10-05 09:32:20.587] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AE5490 k=0 d=0.60m (n=0)
+[2026-10-05 09:32:20.695] [info] [core] [t45265] native-scene: texture re-decode key=FADD480EA352A30A reason=nb words=[81000002 BD29C054 0007E03F 00000D10 00000180 BD2A0A00]
+[2026-10-05 09:32:20.706] [info] [core] [t45485] native-scene: MIP DIAG 64x64 mip 1/5 zero_samples=32/32 guard_zeroed=0/64 ox=0 oy=0 pitch_b=32 size=16384 min=16384 tiled=1 fmt=20 w0=81000002 w1=BD29C054 w2=0007E03F mip_addr=BD2A0000
+[2026-10-05 09:32:20.710] [info] [core] [t45265] native-scene: texture re-decode key=FADD480EA352A30A reason=nb words=[81000002 BD29C054 0007E03F 00000D10 00000180 BD2A0A00]
+[2026-10-05 09:32:20.715] [info] [core] [t45265] native-scene: texture re-decode key=0F6C027118311BDE reason=nb words=[80400002 B7E73044 0001E00F 00001414 00000100 B7E73A00]
+[2026-10-05 09:32:20.715] [info] [core] [t45265] native-scene: texture re-decode key=5FDA5018BFA21BDE reason=nb words=[80400002 BA89F044 0001E00F 00001414 00000100 BA89FA00]
+[2026-10-05 09:32:20.715] [info] [core] [t45265] native-scene: texture re-decode key=CA8E74F457301BDE reason=nb words=[80400002 B8B09044 0001E00F 00001414 00000100 B8B09A00]
+[2026-10-05 09:32:20.715] [info] [core] [t45265] native-scene: texture re-decode key=80584E6ED6401BDE reason=nb words=[80400002 BA87D044 0001E00F 00001414 00000100 BA87DA00]
+[2026-10-05 09:32:20.716] [info] [core] [t45265] native-scene: texture re-decode key=22A3C4179A45BBDE reason=nb words=[80400002 B8A54044 0001E00F 00001414 00000100 B8A54A00]
+[2026-10-05 09:32:20.716] [info] [core] [t45265] native-scene: texture re-decode key=8125C856C1761BDE reason=nb words=[80400002 B8D7F044 0001E00F 00001414 00000100 B8D7FA00]
+[2026-10-05 09:32:20.716] [info] [core] [t45265] native-scene: texture re-decode key=E96645A3031B8CEC reason=nb words=[81000002 B8F2B052 0001E00F 00000D10 00000000 00000200]
+[2026-10-05 09:32:20.716] [info] [core] [t45265] native-scene: texture re-decode key=DC559A714FF43BDE reason=nb words=[80400002 B8D80044 0001E00F 00001414 00000100 B8D80A00]
+[2026-10-05 09:32:20.716] [info] [core] [t45265] native-scene: texture re-decode key=71245518109F8ACE reason=nb words=[80800002 B8D81044 0007E03F 00001414 00000180 B8D83A00]
+[2026-10-05 09:32:20.724] [info] [core] [t45265] native-scene: texture re-decode key=945F0F8D2D3A1BDE reason=nb words=[80400002 B8D0B044 0001E00F 00001414 00000100 B8D0BA00]
+[2026-10-05 09:32:20.724] [info] [core] [t45265] native-scene: texture re-decode key=3EDB6ECAB7221BDE reason=nb words=[80400002 B891F044 0001E00F 00001414 00000100 B891FA00]
+[2026-10-05 09:32:20.731] [info] [core] [t45265] native-scene: texture re-decode key=5FDA5018BFA21BDE reason=nb words=[80400002 BA89F044 0001E00F 00001414 00000100 BA89FA00]
+[2026-10-05 09:32:20.732] [info] [core] [t45265] native-scene: texture re-decode key=80584E6ED6401BDE reason=nb words=[80400002 BA87D044 0001E00F 00001414 00000100 BA87DA00]
+[2026-10-05 09:32:20.739] [info] [core] [t45265] native-scene: texture re-decode key=E1AAF03C885EFBDE reason=nb words=[80400002 B8B32044 0001E00F 00001414 00000100 B8B32A00]
+[2026-10-05 09:32:20.740] [info] [core] [t45265] native-scene: texture re-decode key=FADD480EA352A30A reason=nb words=[81000002 BD29C054 0007E03F 00000D10 00000180 BD2A0A00]
+[2026-10-05 09:32:20.747] [info] [core] [t45265] native-scene: texture re-decode key=0F6C027118311BDE reason=nb words=[80400002 B7E73044 0001E00F 00001414 00000100 B7E73A00]
+[2026-10-05 09:32:20.747] [info] [core] [t45265] native-scene: texture re-decode key=CA8E74F457301BDE reason=nb words=[80400002 B8B09044 0001E00F 00001414 00000100 B8B09A00]
+[2026-10-05 09:32:20.748] [info] [core] [t45265] native-scene: texture re-decode key=22A3C4179A45BBDE reason=nb words=[80400002 B8A54044 0001E00F 00001414 00000100 B8A54A00]
+[2026-10-05 09:32:20.748] [info] [core] [t45265] native-scene: texture re-decode key=8125C856C1761BDE reason=nb words=[80400002 B8D7F044 0001E00F 00001414 00000100 B8D7FA00]
+[2026-10-05 09:32:20.748] [info] [core] [t45265] native-scene: texture re-decode key=E96645A3031B8CEC reason=nb words=[81000002 B8F2B052 0001E00F 00000D10 00000000 00000200]
+[2026-10-05 09:32:20.748] [info] [core] [t45265] native-scene: texture re-decode key=DC559A714FF43BDE reason=nb words=[80400002 B8D80044 0001E00F 00001414 00000100 B8D80A00]
+[2026-10-05 09:32:20.748] [info] [core] [t45265] native-scene: texture re-decode key=71245518109F8ACE reason=nb words=[80800002 B8D81044 0007E03F 00001414 00000180 B8D83A00]
+[2026-10-05 09:32:20.754] [info] [core] [t45265] native-scene: texture re-decode key=945F0F8D2D3A1BDE reason=nb words=[80400002 B8D0B044 0001E00F 00001414 00000100 B8D0BA00]
+[2026-10-05 09:32:20.754] [info] [core] [t45265] native-scene: texture re-decode key=3EDB6ECAB7221BDE reason=nb words=[80400002 B891F044 0001E00F 00001414 00000100 B891FA00]
+[2026-10-05 09:32:20.754] [info] [core] [t45265] native-scene: texture re-decode key=B8C70D4B91FAFBDE reason=nb words=[80400002 BA87E044 0001E00F 00001414 00000100 BA87EA00]
+[2026-10-05 09:32:20.754] [info] [core] [t45265] native-scene: texture re-decode key=A8D93DA0BFF61BDE reason=nb words=[80400002 BA87F044 0001E00F 00001414 00000100 BA87FA00]
+[2026-10-05 09:32:20.760] [info] [core] [t45265] native-scene: texture re-decode key=5FDA5018BFA21BDE reason=nb words=[80400002 BA89F044 0001E00F 00001414 00000100 BA89FA00]
+[2026-10-05 09:32:20.760] [info] [core] [t45265] native-scene: texture re-decode key=80584E6ED6401BDE reason=nb words=[80400002 BA87D044 0001E00F 00001414 00000100 BA87DA00]
+[2026-10-05 09:32:20.768] [info] [core] [t45265] native-scene: texture re-decode key=B8C70D4B91FAFBDE reason=nb words=[80400002 BA87E044 0001E00F 00001414 00000100 BA87EA00]
+[2026-10-05 09:32:20.768] [info] [core] [t45265] native-scene: texture re-decode key=A8D93DA0BFF61BDE reason=nb words=[80400002 BA87F044 0001E00F 00001414 00000100 BA87FA00]
+[2026-10-05 09:32:20.794] [info] [core] [t45265] native-scene: texture re-decode key=B8C70D4B91FAFBDE reason=nb words=[80400002 BA87E044 0001E00F 00001414 00000100 BA87EA00]
+[2026-10-05 09:32:20.794] [info] [core] [t45265] native-scene: texture re-decode key=A8D93DA0BFF61BDE reason=nb words=[80400002 BA87F044 0001E00F 00001414 00000100 BA87FA00]
+[2026-10-05 09:32:20.891] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.147,-0.203,0.968,299.24)(0.945,0.317,-0.077,74.98)(-0.291,0.927,0.238,-434.73)
+[2026-10-05 09:32:20.943] [info] [core] [t45356] native-scene: dyn gap fill mesh=436E3D40 age=1 ropa=0 fam=5 (n=7)
+[2026-10-05 09:32:20.943] [info] [core] [t45356] native-scene: dyn gap fill mesh=436DA130 age=1 ropa=0 fam=1 (n=8)
+[2026-10-05 09:32:21.025] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D8E0 mesh=47EDC960 fam=3 age=1 alpha=0.00 (n=6)
+[2026-10-05 09:32:21.025] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D890 mesh=47EDB340 fam=5 age=1 alpha=0.00 (n=7)
+[2026-10-05 09:32:21.031] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D8E0 mesh=47EDC960 fam=3 age=2 alpha=0.00 (n=8)
+[2026-10-05 09:32:21.031] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D890 mesh=47EDB340 fam=5 age=2 alpha=0.00 (n=9)
+[2026-10-05 09:32:21.150] [info] [core] [t45265] native-scene: texture re-decode key=E1AAF03C885EFBDE reason=nb words=[80400002 B8B32044 0001E00F 00001414 00000100 B8B32A00]
+[2026-10-05 09:32:21.196] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D070 mesh=47EDC960 fam=3 age=1 alpha=0.00 (n=10)
+[2026-10-05 09:32:21.196] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D020 mesh=47EDB340 fam=5 age=1 alpha=0.00 (n=11)
+[2026-10-05 09:32:21.201] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D070 mesh=47EDC960 fam=3 age=2 alpha=0.00 (n=12)
+[2026-10-05 09:32:21.201] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D020 mesh=47EDB340 fam=5 age=2 alpha=0.00 (n=13)
+[2026-10-05 09:32:21.347] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D160 mesh=47EF9C50 fam=3 age=1 alpha=0.35 (n=14)
+[2026-10-05 09:32:21.353] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2D160 mesh=47EF9C50 fam=3 age=2 alpha=0.35 (n=15)
+[2026-10-05 09:32:21.901] [info] [core] [t45356] native-scene: ropa mesh=436ECE30 vb=436ECDE0 base=7 score=16 flag=(1.000,0.000,0.000,0.000) m[c191]=(-0.415,0.000,0.910,294.64)(0.000,1.000,0.000,74.00)(-0.910,0.000,-0.415,-432.60)
+[2026-10-05 09:32:22.747] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:22.972] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=43705990 base=7 score=5 spread=0.29 bind=0.33 (n=0)
+[2026-10-05 09:32:22.984] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=43705990 base=7 score=5 spread=0.29 bind=0.33 (n=1)
+[2026-10-05 09:32:22.994] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=43705990 base=7 score=5 spread=0.29 bind=0.33 (n=2)
+[2026-10-05 09:32:23.003] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.103,-0.972,0.210,293.05)(0.987,-0.126,-0.101,74.95)(0.125,0.197,0.972,-433.53)
+[2026-10-05 09:32:23.003] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=43705990 base=7 score=5 spread=0.29 bind=0.33 (n=3)
+[2026-10-05 09:32:23.015] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=43705990 base=7 score=5 spread=0.29 bind=0.33 (n=4)
+[2026-10-05 09:32:23.026] [info] [core] [t45265] native-scene: texture re-decode key=BBEE6F7F75B897EC reason=nb words=[81000002 BC548052 0001E00F 00000D10 00000100 BC548A00]
+[2026-10-05 09:32:23.026] [info] [core] [t45265] native-scene: texture re-decode key=3449D56B9834AE8A reason=nb words=[81000002 BC54A054 000FE07F 00000D10 000001C0 BC54EA00]
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A11F90 fam=1 (n=1)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A13B80 fam=1 (n=2)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A156C0 fam=5 (n=3)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43705990 fam=1 (n=4)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436F9F90 fam=5 (n=5)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436FC550 fam=1 (n=6)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436FEAA0 fam=1 (n=7)
+[2026-10-05 09:32:23.029] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436EFD70 fam=1 (n=8)
+[2026-10-05 09:32:23.044] [info] [core] [t45265] native-scene: texture re-decode key=BBEE6F7F75B897EC reason=nb words=[81000002 BC548052 0001E00F 00000D10 00000100 BC548A00]
+[2026-10-05 09:32:23.044] [info] [core] [t45265] native-scene: texture re-decode key=3449D56B9834AE8A reason=nb words=[81000002 BC54A054 000FE07F 00000D10 000001C0 BC54EA00]
+[2026-10-05 09:32:23.088] [info] [core] [t45265] native-scene: texture re-decode key=BBEE6F7F75B897EC reason=nb words=[81000002 BC548052 0001E00F 00000D10 00000100 BC548A00]
+[2026-10-05 09:32:23.088] [info] [core] [t45265] native-scene: texture re-decode key=3449D56B9834AE8A reason=nb words=[81000002 BC54A054 000FE07F 00000D10 000001C0 BC54EA00]
+[2026-10-05 09:32:23.267] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436EFD70 fam=1 (n=257)
+[2026-10-05 09:32:23.330] [info] [core] [t45265] native-scene: ad/decal words site=8A508400 fkey=3646D3467C402DAF -> placeholder (no decode yet) words=[82000002 1521D052 001FE0FF 06A80D10 00000E03 15225A18]
+[2026-10-05 09:32:23.331] [info] [core] [t45265] native-scene: ad/decal words site=8A806E80 fkey=3646D3467C402DAF -> placeholder (no decode yet) words=[82000002 1521D052 001FE0FF 06A80D10 00000E03 15225A18]
+[2026-10-05 09:32:23.464] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A156C0 fam=5 (n=513)
+[2026-10-05 09:32:23.654] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436FEAA0 fam=1 (n=769)
+[2026-10-05 09:32:23.852] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A13B80 fam=1 (n=1025)
+[2026-10-05 09:32:24.034] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436FC550 fam=1 (n=1281)
+[2026-10-05 09:32:24.066] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B1BA10 k=0 d=0.75m (n=1)
+[2026-10-05 09:32:24.074] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B1BA10 k=0 d=0.55m (n=2)
+[2026-10-05 09:32:24.192] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.113,-0.463,0.879,284.26)(0.994,0.062,-0.095,74.97)(-0.010,0.884,0.467,-432.46)
+[2026-10-05 09:32:24.217] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A11F90 fam=1 (n=1537)
+[2026-10-05 09:32:24.403] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436F9F90 fam=5 (n=1793)
+[2026-10-05 09:32:24.574] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436ECE30 fam=1 (n=2049)
+[2026-10-05 09:32:24.691] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=741MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=135MB budget=110MB | bufs upload dl=80MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=526KB ovf=0
+[2026-10-05 09:32:24.782] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43705990 fam=1 (n=2305)
+[2026-10-05 09:32:24.962] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436EFD70 fam=1 (n=2561)
+[2026-10-05 09:32:25.138] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=43A156C0 fam=5 (n=2817)
+[2026-10-05 09:32:25.321] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436FEAA0 fam=1 (n=3073)
+[2026-10-05 09:32:25.551] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.164,-0.011,0.986,273.63)(0.982,-0.088,-0.165,75.49)(0.089,0.996,-0.003,-429.90)
+[2026-10-05 09:32:27.224] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.108,0.087,0.990,259.47)(0.992,0.058,-0.113,72.98)(-0.067,0.995,-0.080,-424.14)
+[2026-10-05 09:32:28.233] [info] [core] [t45356] native-scene pivot: 12682 bone-upgrades / 3000 frames
+[2026-10-05 09:32:28.486] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=741MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=135MB budget=110MB | bufs upload dl=81MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=526KB ovf=0
+[2026-10-05 09:32:28.742] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.261,-0.125,0.957,247.33)(0.964,0.075,-0.253,73.13)(-0.041,0.989,0.140,-418.24)
+[2026-10-05 09:32:28.936] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:29.268] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=4052F040 base=7 score=5 spread=0.58 bind=0.61 (n=5)
+[2026-10-05 09:32:29.274] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=4052F040 base=7 score=5 spread=0.58 bind=0.61 (n=6)
+[2026-10-05 09:32:29.280] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=4052F040 base=7 score=5 spread=0.58 bind=0.61 (n=7)
+[2026-10-05 09:32:30.177] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.819,0.561,0.116,241.46)(-0.003,-0.206,0.979,71.86)(0.573,0.802,0.170,-414.87)
+[2026-10-05 09:32:31.554] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.057,-0.060,0.997,250.95)(0.980,0.192,-0.045,72.87)(-0.189,0.980,0.070,-419.41)
+[2026-10-05 09:32:31.791] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=742MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=135MB budget=110MB | bufs upload dl=81MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=526KB ovf=0
+[2026-10-05 09:32:32.984] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.087,0.130,0.988,247.64)(0.980,-0.189,-0.062,72.63)(0.178,0.973,-0.144,-417.42)
+[2026-10-05 09:32:34.396] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.080,0.539,-0.838,242.19)(0.993,-0.116,0.020,72.71)(-0.087,-0.834,-0.545,-415.10)
+[2026-10-05 09:32:35.115] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=742MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=136MB budget=109MB | bufs upload dl=82MB host=4MB, default dl=0MB host=0MB | retired=3 | ring peak=526KB ovf=0
+[2026-10-05 09:32:35.803] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.082,-0.280,0.957,241.30)(0.995,-0.081,0.061,72.16)(0.060,0.957,0.285,-414.19)
+[2026-10-05 09:32:36.008] [info] [core] [t45356] native-scene pivot: 12977 bone-upgrades / 3000 frames
+[2026-10-05 09:32:37.262] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.200,-0.978,-0.059,237.38)(0.979,0.201,-0.012,71.52)(0.024,-0.056,0.998,-413.22)
+[2026-10-05 09:32:38.579] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=743MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=137MB budget=108MB | bufs upload dl=82MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=526KB ovf=0
+[2026-10-05 09:32:38.727] [info] [core] [t45265] native-scene: ad/decal words site=8A7F1A20 fkey=40513D59EC4252EF -> placeholder (no decode yet) words=[84000002 15089052 003FE1FF 06A80D10 00000E43 150A9A18]
+[2026-10-05 09:32:38.767] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.027,0.389,0.921,231.10)(0.998,-0.034,0.044,70.84)(0.048,0.921,-0.387,-407.85)
+[2026-10-05 09:32:40.121] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.038,-0.764,0.644,223.84)(0.988,0.125,0.090,70.55)(-0.150,0.633,0.760,-403.85)
+[2026-10-05 09:32:40.173] [info] [core] [t45265] native-scene: texture re-decode key=B9C156EF3CF10E8A reason=nb words=[81000002 BDF3D054 000FE07F 00000D10 000001C0 BDF41A00]
+[2026-10-05 09:32:40.185] [info] [core] [t45265] native-scene: texture re-decode key=B9C156EF3CF10E8A reason=nb words=[81000002 BDF3D054 000FE07F 00000D10 000001C0 BDF41A00]
+[2026-10-05 09:32:40.206] [info] [core] [t45265] native-scene: texture re-decode key=B9C156EF3CF10E8A reason=nb words=[81000002 BDF3D054 000FE07F 00000D10 000001C0 BDF41A00]
+[2026-10-05 09:32:41.387] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B20540 k=0 d=0.44m (n=3)
+[2026-10-05 09:32:41.394] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B20540 k=0 d=0.33m (n=4)
+[2026-10-05 09:32:41.770] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.137,0.067,-0.988,211.73)(0.985,-0.096,-0.143,71.10)(-0.105,-0.993,-0.053,-405.24)
+[2026-10-05 09:32:42.104] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=745MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=138MB budget=107MB | bufs upload dl=82MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=529KB ovf=0
+[2026-10-05 09:32:42.821] [info] [core] [t45265] native-scene: ad/decal words site=8A6797C0 fkey=D12CD7935D04495D -> placeholder (no decode yet) words=[80400002 17487044 0003E00F 06A81414 00000D43 17487A18]
+[2026-10-05 09:32:42.822] [info] [core] [t45265] native-scene: ad/decal words site=8A77AD40 fkey=ADBF4B28CA16186D -> placeholder (no decode yet) words=[80800002 183F7044 0003E03F 06A81414 00000D83 183F8A18]
+[2026-10-05 09:32:42.837] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453BE8C0 slot=0 held=A4586E33A3A4984A bound=05178150DEC953CC area 65536 -> 1024
+[2026-10-05 09:32:42.883] [info] [core] [t45265] native-scene: texture decode FAILED key=150A68DD075C82A5 fetch=[00000000 05000028 00000006 00000D10 00000240 00000000]
+[2026-10-05 09:32:42.889] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453A07C0 slot=0 held=BD2548705E356FDC bound=08B6B038466C8ACE area 262144 -> 4096
+[2026-10-05 09:32:42.889] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453A07C0 slot=6 held=012AF8B6F8C1769C bound=79B2ED7C8CDD8ACE area 65536 -> 4096
+[2026-10-05 09:32:42.889] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453A07C0 slot=3 held=802E355C0557769C bound=57721BDCDC788ACE area 65536 -> 4096
+[2026-10-05 09:32:42.910] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=4531F840 slot=0 held=A4586E33A3A4984A bound=05178150DEC953CC area 65536 -> 1024
+[2026-10-05 09:32:42.936] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453D8870 slot=0 held=A84CAAAE2216D50E bound=5ED9F989A87703F6 area 8192 -> 128
+[2026-10-05 09:32:42.936] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453D8870 slot=6 held=CB8920A4833CCF9C bound=1D4ACF89B17723F6 area 8192 -> 128
+[2026-10-05 09:32:42.936] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453D8870 slot=3 held=492285E79671CF9C bound=A75AEA53988D03F6 area 8192 -> 128
+[2026-10-05 09:32:42.940] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453326C0 slot=0 held=A84CAAAE2216D50E bound=5ED9F989A87703F6 area 8192 -> 128
+[2026-10-05 09:32:42.940] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453326C0 slot=6 held=CB8920A4833CCF9C bound=1D4ACF89B17723F6 area 8192 -> 128
+[2026-10-05 09:32:42.940] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453326C0 slot=3 held=492285E79671CF9C bound=A75AEA53988D03F6 area 8192 -> 128
+[2026-10-05 09:32:42.949] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453BD6A0 slot=0 held=FA861B8C003B4FDC bound=23C9A4F882C75ACE area 131072 -> 2048
+[2026-10-05 09:32:42.949] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453BD6A0 slot=6 held=817C1081B8FD569C bound=94293B51B9A15ACE area 32768 -> 2048
+[2026-10-05 09:32:42.949] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453BD6A0 slot=3 held=254BF16143B6D69C bound=B46A0A7AFDA05ACE area 32768 -> 2048
+[2026-10-05 09:32:42.960] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=453015B0 slot=0 held=A4586E33A3A4984A bound=05178150DEC953CC area 65536 -> 1024
+[2026-10-05 09:32:42.960] [info] [core] [t45265] native-scene: texture re-decode key=4EFAC70E7FD2169C reason=fp words=[82000002 B5021052 001FE0FF 00000D10 00000200 B5029A00]
+[2026-10-05 09:32:42.975] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=452ECB30 slot=0 held=BD2548705E356FDC bound=08B6B038466C8ACE area 262144 -> 4096
+[2026-10-05 09:32:42.976] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=452ECB30 slot=6 held=012AF8B6F8C1769C bound=79B2ED7C8CDD8ACE area 65536 -> 4096
+[2026-10-05 09:32:42.976] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=452ECB30 slot=3 held=802E355C0557769C bound=57721BDCDC788ACE area 65536 -> 4096
+[2026-10-05 09:32:43.251] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=4530AF80 slot=0 held=63D6951778867B8A bound=EDDAD35DA05F7D2C area 131072 -> 2048
+[2026-10-05 09:32:43.273] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=4530B6C0 slot=0 held=83C1B2C6969B0FDC bound=9C97FA74D3D56ACE area 262144 -> 4096
+[2026-10-05 09:32:43.273] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=4530B6C0 slot=6 held=270D5C963C0F169C bound=BBD8CB6FAC216ACE area 65536 -> 4096
+[2026-10-05 09:32:43.273] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=4530B6C0 slot=3 held=2AE02F36BD03169C bound=7A943620507D6ACE area 65536 -> 4096
+[2026-10-05 09:32:43.292] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.979,-0.114,0.168,202.57)(-0.198,0.348,-0.916,68.26)(0.046,-0.930,-0.363,-404.28)
+[2026-10-05 09:32:43.315] [info] [core] [t45356] native-scene: main-pass palette relaxed-accept mesh=4052F100 base=7 score=0 spread=0.60 bind=0.60 (n=1024)
+[2026-10-05 09:32:43.319] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=452ECC60 slot=0 held=A4586E33A3A4984A bound=05178150DEC953CC area 65536 -> 1024
+[2026-10-05 09:32:43.319] [info] [core] [t45265] native-scene: detail-downgrade HOLD mesh=452EF780 slot=0 held=FA861B8C003B4FDC bound=23C9A4F882C75ACE area 131072 -> 2048
+[2026-10-05 09:32:43.517] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEA170 k=1 d=0.48m (n=5)
+[2026-10-05 09:32:43.627] [info] [core] [t45356] native-scene pivot: 12378 bone-upgrades / 3000 frames
+[2026-10-05 09:32:44.019] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:44.810] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.072,-0.692,0.718,203.01)(0.990,-0.040,-0.138,68.98)(0.124,0.721,0.682,-404.22)
+[2026-10-05 09:32:45.622] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=809MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=139MB budget=106MB | bufs upload dl=83MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=612KB ovf=0
+[2026-10-05 09:32:46.250] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.027,-0.693,0.721,196.69)(0.999,0.045,0.006,68.88)(-0.037,0.720,0.693,-405.60)
+[2026-10-05 09:32:46.650] [info] [core] [t45265] nrhi-vulkan: SLOW frame 7106us: pass_open=7us/29 flush=0us/39 copies=3us/33 table_miss=5us/2 set0_miss=0us/0 view_destroy=146us/1 view_create=681us/5 const=0us/1064 pso=0us/0 drain=6264us/1
+[2026-10-05 09:32:46.665] [error] [apu] [t45367] XmaContext 36 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:46.782] [info] [core] [t45265] native-scene: ad/decal words site=8A7A0FA1 fkey=37599AC65E72AF5F -> placeholder (no decode yet) words=[81004802 17D8A086 000FE07F 06A80C14 00000DC3 17D9AA18]
+[2026-10-05 09:32:46.782] [info] [core] [t45265] native-scene: ad/decal words site=8A7ED0E1 fkey=37599AC65E72AF5F -> placeholder (no decode yet) words=[81004802 17D8A086 000FE07F 06A80C14 00000DC3 17D9AA18]
+[2026-10-05 09:32:46.786] [info] [core] [t45265] native-scene: ad/decal words site=8A7A0FA1 fkey=37599AC65E72AF5F -> placeholder (no decode yet) words=[81004802 17D8A086 000FE07F 06A80C14 00000DC3 17D9AA18]
+[2026-10-05 09:32:46.786] [info] [core] [t45265] native-scene: ad/decal words site=8A7ED0E1 fkey=37599AC65E72AF5F -> placeholder (no decode yet) words=[81004802 17D8A086 000FE07F 06A80C14 00000DC3 17D9AA18]
+[2026-10-05 09:32:47.603] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AFA970 k=0 d=0.50m (n=6)
+[2026-10-05 09:32:47.608] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AFA970 k=0 d=0.30m (n=7)
+[2026-10-05 09:32:47.641] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AFA970 k=0 d=0.36m (n=8)
+[2026-10-05 09:32:47.900] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.277,-0.937,0.214,188.24)(0.709,-0.350,-0.613,69.24)(0.649,-0.018,0.761,-412.65)
+[2026-10-05 09:32:49.053] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=831MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=160MB budget=85MB | bufs upload dl=87MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=657KB ovf=0
+[2026-10-05 09:32:49.190] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.286,0.117,0.951,185.46)(-0.263,-0.964,0.039,68.54)(0.921,-0.239,0.306,-412.32)
+[2026-10-05 09:32:49.949] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:50.483] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:50.526] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.077,-0.472,-0.878,193.47)(0.986,0.092,-0.136,68.93)(0.145,-0.877,0.458,-406.63)
+[2026-10-05 09:32:51.884] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.046,-0.945,0.325,191.37)(0.994,-0.074,-0.074,68.85)(0.094,0.319,0.943,-409.46)
+[2026-10-05 09:32:52.179] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=831MB budget=5987MB | heap1 use=44MB budget=23889MB | heap2(DL) use=161MB budget=84MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=657KB ovf=0
+[2026-10-05 09:32:53.297] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.054,-0.952,0.300,187.87)(0.990,0.011,-0.143,68.94)(0.133,0.305,0.943,-412.68)
+[2026-10-05 09:32:54.714] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.140,-0.562,0.815,183.51)(0.989,0.044,-0.139,69.57)(0.042,0.826,0.562,-413.48)
+[2026-10-05 09:32:55.603] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=831MB budget=5984MB | heap1 use=44MB budget=23889MB | heap2(DL) use=161MB budget=84MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=657KB ovf=0
+[2026-10-05 09:32:55.944] [error] [apu] [t45367] XmaContext 36 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:56.234] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.116,-0.775,0.621,181.42)(0.984,-0.176,-0.035,69.65)(0.137,0.607,0.783,-414.86)
+[2026-10-05 09:32:56.619] [info] [core] [t45356] native-scene: dyn publish GAP mesh=47F2AC60 missing 1 frame(s) ropa=0 skinned=1 fam=5 src=11
+[2026-10-05 09:32:56.619] [info] [core] [t45356] native-scene: dyn publish GAP mesh=47F2CDA0 missing 1 frame(s) ropa=0 skinned=1 fam=3 src=11
+[2026-10-05 09:32:56.838] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:32:57.729] [info] [core] [t45356] native-scene: ropa mesh=436B0CA0 vb=436B0C50 base=4 score=16 flag=(1.000,1.000,0.000,0.000) m[c188]=(0.117,0.147,0.982,192.15)(0.935,0.317,-0.159,68.57)(-0.335,0.937,-0.101,-403.81)
+[2026-10-05 09:32:58.524] [info] [core] [t45356] native-scene pivot: 12713 bone-upgrades / 3000 frames
+[2026-10-05 09:32:58.828] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.695,0.707,0.133,181.23)(0.673,-0.704,0.226,68.71)(0.254,-0.068,-0.965,-413.86)
+[2026-10-05 09:32:58.909] [info] [core] [t45356] native-scene: caster-bank publish swapped for last main-view capture mesh=436BE3D0 fam=5 (n=3329)
+[2026-10-05 09:32:59.014] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=831MB budget=5986MB | heap1 use=44MB budget=23889MB | heap2(DL) use=161MB budget=84MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=722KB ovf=0
+[2026-10-05 09:32:59.709] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.009,-0.180,0.984,185.92)(0.994,0.108,0.029,69.14)(-0.112,0.978,0.178,-413.12)
+[2026-10-05 09:33:00.762] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.141,-0.982,0.124,184.66)(0.990,-0.138,0.036,69.18)(-0.018,0.128,0.992,-413.26)
+[2026-10-05 09:33:01.887] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.197,-0.622,0.758,178.96)(0.971,-0.228,0.066,69.08)(0.132,0.749,0.649,-413.61)
+[2026-10-05 09:33:02.228] [info] [core] [t45265] native-scene: ad/decal words site=8A77B9E0 fkey=70FBCD8A29FC99DF -> placeholder (no decode yet) words=[80800002 17B3D086 0007E03F 06A80C14 00000D83 17B41A18]
+[2026-10-05 09:33:02.228] [info] [core] [t45265] native-scene: ad/decal words site=8A13CB00 fkey=70FBCD8A29FC99DF -> placeholder (no decode yet) words=[80800002 17B3D086 0007E03F 06A80C14 00000D83 17B41A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A7BFC60 fkey=46AA2A9F474552EF -> placeholder (no decode yet) words=[84000002 15AA4052 003FE1FF 06A80D10 00000E43 15AC4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A169680 fkey=46AA2A9F474552EF -> placeholder (no decode yet) words=[84000002 15AA4052 003FE1FF 06A80D10 00000E43 15AC4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A1B52C0 fkey=AD126695833312EF -> placeholder (no decode yet) words=[84000002 15203052 001FE1FF 06A80D10 00000E43 15213A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A15A5C0 fkey=7F54E574AC0552EF -> placeholder (no decode yet) words=[84000002 158A4052 003FE1FF 06A80D10 00000E43 158C4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A15A360 fkey=46AA2A9F474552EF -> placeholder (no decode yet) words=[84000002 15AA4052 003FE1FF 06A80D10 00000E43 15AC4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A1B77A0 fkey=46AA2A9F474552EF -> placeholder (no decode yet) words=[84000002 15AA4052 003FE1FF 06A80D10 00000E43 15AC4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A1597A0 fkey=46AA2A9F474552EF -> placeholder (no decode yet) words=[84000002 15AA4052 003FE1FF 06A80D10 00000E43 15AC4A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A1560C0 fkey=AD126695833312EF -> placeholder (no decode yet) words=[84000002 15203052 001FE1FF 06A80D10 00000E43 15213A18]
+[2026-10-05 09:33:02.313] [info] [core] [t45265] native-scene: ad/decal words site=8A1B2CE0 fkey=86982CA9E72C12EF -> placeholder (no decode yet) words=[84000002 151D3052 003FE1FF 06A80D10 00000E43 151F3A18]
+[2026-10-05 09:33:02.314] [info] [core] [t45265] native-scene: ad/decal words site=8A1B2A80 fkey=2C1D1CD7FC9F332F -> placeholder (no decode yet) words=[88000002 158D4052 007FE3FF 06A80D10 00000E83 15954A18]
+[2026-10-05 09:33:02.314] [info] [core] [t45265] native-scene: ad/decal words site=8A1B83E0 fkey=1713338CCC3D52EF -> placeholder (no decode yet) words=[84000002 15864052 003FE1FF 06A80D10 00000E43 15884A18]
+[2026-10-05 09:33:02.323] [info] [core] [t45265] native-scene: texture re-decode key=FF056059EC766FDC reason=fp words=[84000002 B5AD4052 003FE1FF 00000D10 00000240 B5AF4A00]
+[2026-10-05 09:33:02.324] [info] [core] [t45265] native-scene: texture re-decode key=AB2056E9B089B69C reason=fp words=[82000002 B5344052 000FE0FF 00000D10 00000200 B5348A00]
+[2026-10-05 09:33:02.324] [info] [core] [t45265] native-scene: texture re-decode key=A75751FE6371569C reason=fp words=[82000002 B52C9052 000FE0FF 00000D10 00000200 B52CDA00]
+[2026-10-05 09:33:02.338] [info] [core] [t45265] native-scene: texture re-decode key=1A51C89FC1B5F69C reason=fp words=[82000002 B5A88052 001FE0FF 00000D10 00000200 B5A90A00]
+[2026-10-05 09:33:02.784] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=831MB budget=5988MB | heap1 use=44MB budget=23889MB | heap2(DL) use=161MB budget=84MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=1 | ring peak=722KB ovf=0
+[2026-10-05 09:33:02.991] [info] [core] [t45356] native-scene: ropa mesh=436B0CA0 vb=436B0C50 base=7 score=16 flag=(1.000,1.000,0.000,0.000) m[c191]=(0.375,-0.912,0.164,148.60)(0.926,0.376,-0.028,68.96)(-0.036,0.162,0.986,-416.60)
+[2026-10-05 09:33:03.093] [error] [apu] [t45367] XmaContext 36 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:33:03.691] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AE5490 k=0 d=0.54m (n=9)
+[2026-10-05 09:33:04.091] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.635,-0.731,0.251,162.30)(0.767,-0.635,0.091,68.74)(0.092,0.250,0.964,-412.44)
+[2026-10-05 09:33:04.833] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.45m (n=10)
+[2026-10-05 09:33:04.895] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.34m (n=11)
+[2026-10-05 09:33:04.910] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.34m (n=12)
+[2026-10-05 09:33:04.925] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.36m (n=13)
+[2026-10-05 09:33:04.943] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.33m (n=14)
+[2026-10-05 09:33:05.162] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEAC50 k=0 d=0.76m (n=15)
+[2026-10-05 09:33:05.216] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.182,-0.111,0.977,152.89)(0.983,0.048,-0.178,69.31)(-0.027,0.993,0.117,-410.37)
+[2026-10-05 09:33:05.226] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.34m (n=16)
+[2026-10-05 09:33:05.545] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEA170 k=0 d=0.31m (n=17)
+[2026-10-05 09:33:06.412] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.526,-0.077,-0.847,146.90)(-0.553,0.788,0.271,68.92)(0.647,0.610,-0.457,-409.67)
+[2026-10-05 09:33:06.586] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=832MB budget=5988MB | heap1 use=44MB budget=23889MB | heap2(DL) use=161MB budget=84MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=751KB ovf=0
+[2026-10-05 09:33:07.477] [info] [core] [t45356] native-scene pivot: 12735 bone-upgrades / 3000 frames
+[2026-10-05 09:33:07.937] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.148,0.942,0.303,147.09)(0.898,0.001,-0.440,69.30)(-0.414,0.337,-0.846,-410.54)
+[2026-10-05 09:33:08.438] [info] [core] [t45356] native-scene: LW gap fill ctx=40D2CCB0 mesh=47EE91E0 fam=5 age=1 alpha=0.00 (n=256)
+[2026-10-05 09:33:09.490] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(-0.076,0.554,0.829,147.71)(0.981,0.193,-0.039,68.80)(-0.181,0.810,-0.557,-411.24)
+[2026-10-05 09:33:10.278] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=834MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=163MB budget=81MB | bufs upload dl=88MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=751KB ovf=0
+[2026-10-05 09:33:11.062] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.015,0.748,0.664,151.04)(1.000,-0.003,-0.020,68.87)(-0.013,0.664,-0.748,-409.71)
+[2026-10-05 09:33:12.435] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:33:12.642] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.004,0.488,0.873,157.00)(0.999,0.044,-0.029,69.33)(-0.052,0.872,-0.487,-402.61)
+[2026-10-05 09:33:12.702] [info] [core] [t45265] native-scene: ad/decal words site=8A63F080 fkey=53D2518708FB7C59 -> placeholder (no decode yet) words=[82000002 15D72054 001FE0FF 06A80D10 00000E03 15D82A18]
+[2026-10-05 09:33:12.702] [info] [core] [t45265] native-scene: ad/decal words site=8A615F00 fkey=E92A96EDF1564799 -> placeholder (no decode yet) words=[84000002 15860054 001FE1FF 06A80D10 00000E43 15880A18]
+[2026-10-05 09:33:12.814] [info] [core] [t45265] native-scene: texture re-decode key=FF056059EC766FDC reason=fp words=[84000002 B5AD4052 003FE1FF 00000D10 00000240 B5AF4A00]
+[2026-10-05 09:33:12.820] [info] [core] [t45265] native-scene: texture re-decode key=59D98456D6E6769C reason=fp words=[82000002 B58D4052 001FE0FF 00000D10 00000200 B58DCA00]
+[2026-10-05 09:33:12.846] [info] [core] [t45265] native-scene: texture re-decode key=81AC56F5E206769C reason=fp words=[82000002 B58B4052 001FE0FF 00000D10 00000200 B58BCA00]
+[2026-10-05 09:33:12.867] [info] [core] [t45265] native-scene: texture re-decode key=FCD647BF9C16769C reason=fp words=[82000002 B58C4052 001FE0FF 00000D10 00000200 B58CCA00]
+[2026-10-05 09:33:12.877] [info] [core] [t45265] native-scene: texture re-decode key=344520C8FDA3CFDC reason=fp words=[84000002 B5203052 001FE1FF 00000D10 00000240 B5213A00]
+[2026-10-05 09:33:12.877] [info] [core] [t45265] native-scene: texture re-decode key=A75751FE6371569C reason=fp words=[82000002 B52C9052 000FE0FF 00000D10 00000200 B52CDA00]
+[2026-10-05 09:33:12.966] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AD8CB0 k=0 d=0.32m (n=18)
+[2026-10-05 09:33:12.972] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AD8CB0 k=0 d=0.52m (n=19)
+[2026-10-05 09:33:13.240] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEA170 k=0 d=0.40m (n=20)
+[2026-10-05 09:33:13.888] [info] [core] [t45265] native-scene: texture decode FAILED key=B8D109F80BBD2FDC fetch=[84000002 00000052 003FE1FF 00000D10 00000240 B5AF4A00]
+[2026-10-05 09:33:13.889] [info] [core] [t45265] native-scene: texture decode FAILED key=FA8741199DE7D84A fetch=[82000002 00000054 001FE0FF 00000D10 00000200 B5834A00]
+[2026-10-05 09:33:13.889] [info] [core] [t45265] native-scene: texture decode FAILED key=DC571041A686569C fetch=[82000002 00000052 001FE0FF 00000D10 00000200 B5DAAA00]
+[2026-10-05 09:33:13.912] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=833MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=163MB budget=82MB | bufs upload dl=89MB host=4MB, default dl=0MB host=0MB | retired=5 | ring peak=751KB ovf=0
+[2026-10-05 09:33:14.178] [info] [core] [t45265] native-scene: texture decode FAILED key=9DD109F7DDDC2FDC fetch=[84000002 00000052 003FE1FF 00000D10 00000240 B5884A00]
+[2026-10-05 09:33:14.215] [info] [core] [t45265] native-scene: texture decode FAILED key=3F00D4FF4A8A041C fetch=[88000002 00000052 007FE3FF 00000D10 00000280 B5954A00]
+[2026-10-05 09:33:14.233] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=4 score=16 flag=(0.000,1.000,0.000,0.000) m[c188]=(0.161,-0.262,-0.952,155.48)(0.849,0.529,-0.002,69.29)(0.504,-0.808,0.307,-402.32)
+[2026-10-05 09:33:14.428] [info] [core] [t45265] native-scene: texture decode FAILED key=99D109F7D7102FDC fetch=[84000002 00000052 003FE1FF 00000D10 00000240 B58C4A00]
+[2026-10-05 09:33:14.429] [info] [core] [t45265] native-scene: texture decode FAILED key=8EF71041230C369C fetch=[82000002 00000052 001FE0FF 00000D10 00000200 B589CA00]
+[2026-10-05 09:33:14.436] [info] [core] [t45265] native-scene: texture decode FAILED key=B9D109F80D702FDC fetch=[84000002 00000052 003FE1FF 00000D10 00000240 B5AC4A00]
+[2026-10-05 09:33:14.436] [info] [core] [t45265] native-scene: texture decode FAILED key=DF571041AB9F569C fetch=[82000002 00000052 001FE0FF 00000D10 00000200 B5D9AA00]
+[2026-10-05 09:33:14.714] [info] [core] [t45265] native-scene: texture re-decode key=5B24EC39C85DF69C reason=fp words=[82000002 B5348052 001FE0FF 00000D10 00000200 B5350A00]
+[2026-10-05 09:33:14.941] [info] [core] [t45265] native-scene: texture re-decode key=D6DC938A3F6B0FDC reason=fp words=[84000002 B518D052 003FE1FF 00000D10 00000240 B51ADA00]
+[2026-10-05 09:33:16.074] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.068,0.110,-0.992,149.58)(0.984,-0.169,0.049,69.03)(-0.162,-0.980,-0.120,-407.27)
+[2026-10-05 09:33:16.892] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B0CD60 k=0 d=0.41m (n=21)
+[2026-10-05 09:33:17.740] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.384,0.607,-0.695,143.32)(0.910,-0.377,0.174,69.27)(-0.156,-0.700,-0.697,-411.55)
+[2026-10-05 09:33:18.078] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=897MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=791KB ovf=0
+[2026-10-05 09:33:18.868] [info] [core] [t45356] native-scene pivot: 11404 bone-upgrades / 3000 frames
+[2026-10-05 09:33:19.406] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.104,0.976,-0.192,142.03)(0.986,0.127,0.108,68.67)(0.129,-0.178,-0.975,-416.41)
+[2026-10-05 09:33:19.750] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEAC50 k=0 d=0.41m (n=22)
+[2026-10-05 09:33:19.756] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45AEAC50 k=0 d=0.35m (n=23)
+[2026-10-05 09:33:20.958] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.093,-0.594,0.799,139.58)(0.993,0.007,0.120,69.31)(-0.077,0.805,0.589,-415.03)
+[2026-10-05 09:33:21.803] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=897MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=823KB ovf=0
+[2026-10-05 09:33:21.887] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:33:22.684] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(-0.145,-0.501,-0.853,131.71)(0.986,-0.142,-0.084,69.34)(-0.079,-0.854,0.514,-413.55)
+[2026-10-05 09:33:24.276] [info] [core] [t45265] native-scene: texture re-decode key=CEAF93A9E4A6769C reason=fp words=[82000002 B5844052 001FE0FF 00000D10 00000200 B584CA00]
+[2026-10-05 09:33:24.282] [info] [core] [t45265] native-scene: texture re-decode key=0B1686B8EB466FDC reason=fp words=[84000002 B5954052 003FE1FF 00000D10 00000240 B5974A00]
+[2026-10-05 09:33:24.293] [info] [core] [t45265] native-scene: texture re-decode key=81AC56F5E206769C reason=fp words=[82000002 B58B4052 001FE0FF 00000D10 00000200 B58BCA00]
+[2026-10-05 09:33:24.293] [info] [core] [t45265] native-scene: texture re-decode key=B9FBA5F545DC6FDC reason=fp words=[84000002 B5924052 003FE1FF 00000D10 00000240 B5944A00]
+[2026-10-05 09:33:24.347] [info] [core] [t45265] native-scene: texture re-decode key=63D6951778867B8A reason=fp words=[84000002 B50C9054 001FE1FF 00000D10 00000240 B50E9A00]
+[2026-10-05 09:33:24.643] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705CF0 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.008,-0.207,-0.978,119.39)(0.993,0.118,-0.017,68.65)(0.119,-0.971,0.206,-412.81)
+[2026-10-05 09:33:25.148] [info] [core] [t45356] native-scene: rigid close-clone mispair reset mesh=45B20540 k=1 d=0.30m (n=256)
+[2026-10-05 09:33:25.766] [info] [core] [t45356] native-scene: dyn publish GAP mesh=47EE4EF0 missing 2 frame(s) ropa=0 skinned=1 fam=3 src=11
+[2026-10-05 09:33:25.862] [info] [core] [t45265] native-scene: texture decode FAILED key=444F70C0B6A7A8E0 fetch=[00000000 0500008B 00000006 00000D10 00000200 00000000]
+[2026-10-05 09:33:26.035] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5979MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=2 | ring peak=823KB ovf=0
+[2026-10-05 09:33:26.087] [info] [krnl] [t45331] XGIUserSetContextEx(user=0, context=0x8001, value=0x0)
+[2026-10-05 09:33:26.091] [info] [core] [t45265] native-scene: pause menu over live world - staying NATIVE (2d stats at entry: draws_2d=865003 other=0 dropped=2)
+[2026-10-05 09:33:26.091] [info] [core] [t45265] native-scene: FE stack changed: [0,56] (portrait window steady; steady-safe = 0/56/24/17/59)
+[2026-10-05 09:33:26.095] [info] [core] [t45356] native-scene: popup background blur ON (kernel scale 0.8, fade 0.94/0.94/0.94)
+[2026-10-05 09:33:26.160] [info] [core] [t45265] 2d-thumb: f31819 w1=1F776054 512x64 key=511105C962098821 served_fp=C9FDE26951FCE422 live_fp=C9FDE26951FCE422 valid=1 inc=0 recheck=f0
+[2026-10-05 09:33:26.184] [info] [core] [t45356] native-scene pivot: 10989 bone-upgrades / 3000 frames
+[2026-10-05 09:33:26.228] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:26.315] [info] [core] [t45265] 2d-thumb: f31850 w1=1FBE0054 512x512 key=54EF5A9C67E76821 served_fp=057AFBDB31473E43 live_fp=057AFBDB31473E43 valid=1 inc=0 recheck=f31852
+[2026-10-05 09:33:27.524] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:28.920] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:29.188] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5979MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:30.208] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:31.541] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:32.247] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5979MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=6 | ring peak=823KB ovf=0
+[2026-10-05 09:33:32.930] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:34.398] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:35.705] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:35.837] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:35.984] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:33:37.279] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:38.912] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:39.317] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:39.442] [error] [apu] [t45367] XmaContext 36 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:33:40.450] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:41.930] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:42.864] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:43.603] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:45.112] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:46.575] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:46.680] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:48.254] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:49.779] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:50.173] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:51.281] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:52.804] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:53.723] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:54.273] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:55.637] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:57.015] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:33:57.064] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:58.586] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:33:59.986] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:34:00.287] [error] [apu] [t45367] XmaContext 35 old: input offset 16416 exceeds buffer size 16384
+[2026-10-05 09:34:00.443] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:34:01.446] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:34:02.935] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
+[2026-10-05 09:34:03.944] [info] [core] [t45265] nrhi-vulkan mem: heap0(DL) use=896MB budget=5989MB | heap1 use=44MB budget=23889MB | heap2(DL) use=226MB budget=19MB | bufs upload dl=98MB host=4MB, default dl=0MB host=0MB | retired=4 | ring peak=823KB ovf=0
+[2026-10-05 09:34:04.467] [info] [core] [t45356] native-scene: ropa mesh=40D30080 vb=40705D20 base=7 score=16 flag=(0.000,1.000,0.000,0.000) m[c191]=(0.065,-0.501,-0.863,109.73)(0.991,0.132,-0.002,68.60)(0.115,-0.856,0.505,-411.52)
